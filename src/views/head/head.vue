@@ -1,0 +1,283 @@
+<template>
+
+  <div class="app" ref="scroll">
+
+    <div class="newHead">
+      <div class="HeadMain">
+
+        <headNav :phoneOrSearch="paramsHead"></headNav>
+        <div style="width: 1200px;margin: 0 auto;">
+          <div class="heard_leftBot">
+            <div class="jieshao">
+              <h1 style="margin-bottom: 29px;">第三方保险挂牌服务机构</h1>
+              <p>始于2008年11月，经国家金融监督管理总局批准设立。总部位于上海，战略合作全国多达80余家保险公司，提供近千款产品甄选服务，涵盖意外险、医疗险、重疾险、人寿险、年金险等全险种产品，服务用户超过3000万人次。</p>
+            </div>
+            <div class="search">
+              <el-input placeholder="请输入你想搜索的关键词" v-model="searchValue" class="input-with-select">
+                <el-button slot="append" @click="searchBtn">立即搜索</el-button>
+              </el-input>
+              <div class="hotSearch">
+                <img src="../../assets/hot.png" alt="">&nbsp;&nbsp;&nbsp;
+                <div class="hotitem">热门搜索：<span @click="searcHot('达尔文10号')">达尔文10号</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('超级玛丽12号')">超级玛丽12号</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('人保寿险i无忧')">人保寿险i无忧</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <router-view />
+
+    <!-- <footBottom></footBottom> -->
+
+    <el-dialog title="" :visible.sync="popupVisible" width="640px">
+      <div>
+        <popup></popup>
+      </div>
+    </el-dialog>
+
+  </div>
+</template>
+
+<script>
+import footBottom from "../../components/footBottom.vue";
+import popup from "../../components/popup.vue";
+import headNav from "../../components/headNav.vue";
+export default {
+  components: {
+    // 局部注册组件
+    popup: popup,
+    headNav,
+    footBottom
+  },
+  data() {
+    return {
+      searchValue: '',
+      popupVisible: false,
+      paramsHead: {
+        isphone: true,
+        isBg: true,
+      }
+      // navTop: true,
+    };
+  },
+
+  mounted() {
+    var ss = {
+      isphone: true,
+      isBg: true,
+    }
+    this.paramsHead = ss
+    window.addEventListener('keydown', this.keyDown);
+  },
+
+
+  methods: {
+    openPopup() {
+      this.popupVisible = true
+    },
+
+    keyDown(e) {
+      //如果是回车则执行登录方法
+      if (e.keyCode == 13) {
+        this.searchBtn();
+      }
+    },
+    searchBtn() {
+      this.$router.push({ path: "/search", query: { searchValue: this.searchValue } })
+      // var routeData = {
+      //   path: "/search",
+      //   query: {
+      //     searchValue: this.searchValue,
+      //   }
+      // }
+      // // 序列化路由对象
+      // const routeUrl = this.$router.resolve(routeData).href;
+      // // 在新窗口中打开路由链接
+      // window.open(routeUrl, '_blank');
+    },
+    searcHot(item) {
+      this.$router.push({ path: "/search", query: { searchValue: item } })
+    }
+
+
+
+  },
+};
+</script>
+ 
+<style scoped>
+.newHead {
+  width: 100%;
+  height: 600px;
+  background: url(../../assets/banner.png) 100% 100% no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.HeadMain {
+
+  width: 100%;
+  -webkit-sizing: border-box;
+  -ms-box-sizing: border-box;
+  margin: 0 auto;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.divFlex {
+  width: 1400px;
+  height: 60px;
+  /* line-height: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 26px;
+}
+
+.newNav {
+  width: 227px;
+  height: 63px;
+}
+.neaHeadmain {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.neaHeadmain a {
+  font-size: 26px;
+  font-weight: 400;
+  font-weight: 500;
+}
+.newNav img {
+  width: 100%;
+  height: 100%;
+}
+
+.newzixun {
+  width: 180px;
+  height: 56px;
+  line-height: 56px;
+  color: #fff;
+  background: #3244a8;
+  margin-left: 30px;
+  margin-top: 4.5px;
+  border-radius: 5px;
+}
+
+.heard_leftBot {
+  margin-top: 80px;
+  /* height: 400px; */
+  width: 650px;
+  padding: 43px 0;
+  padding-left: 0;
+  padding-top: 90px;
+  box-sizing: border-box;
+}
+
+ 
+.jieshao p {
+  text-align: justify;
+  font-size: 18px;
+  color: #525151;
+  line-height: 36px;
+  font-weight: 400;
+}
+h1 {
+  text-align: left;
+  font-size: 32px;
+}
+.search {
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  margin-top: 73px;
+}
+.search .input-with-select {
+  height: 56px;
+  line-height: 56px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+}
+.search p {
+  text-align: left;
+  height: 37px;
+  line-height: 36px;
+  margin: 0 auto;
+}
+::v-deep .input-with-select .el-input__inner {
+  height: 56px !important;
+  line-height: 56px !important;
+  font-size: 18px;
+  text-indent: 1em;
+}
+
+::v-deep .el-input-group__append {
+  width: 240px;
+  height: 56px;
+  line-height: 56px;
+  background: #3244a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* 设置input元素placeholder的字体大小 */
+::v-deep input::-webkit-input-placeholder {
+  font-size: 18px; /* Chrome, Safari, Opera */
+}
+::v-deep input:-moz-placeholder {
+  font-size: 18px; /* Firefox 18- */
+}
+::v-deep input::-moz-placeholder {
+  font-size: 18px; /* Firefox 19+ */
+}
+::v-deep input:-ms-input-placeholder {
+  font-size: 18px; /* Internet Explorer 10+ */
+}
+
+.hotSearch {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.hotitem {
+  font-size: 18px;
+  color: #525151;
+}
+.hotitem span {
+  font-size: 18px;
+  color: #525151;
+  cursor: pointer;
+}
+/* 当屏幕宽度小于1200px时应用的样式 */
+@media (max-width: 1200px) {
+    .newHead{
+      width:1200px;
+    }
+
+    .template{
+       width: 1200px;
+       margin: 0 auto;
+     
+    }
+}
+
+/* 当屏幕宽度大于1200px时应用的样式 */
+@media (min-width: 1200px) {
+
+    .newHead{
+      width:100%;
+      padding: 0;
+     
+    }
+    .template{
+       width: 100%;
+       margin: 0 auto;
+    }
+}
+</style>
+
+

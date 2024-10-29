@@ -1,7 +1,7 @@
-# 官网系统
-一个简单的美华官网系统
+# 后台管理系统
+一个简单的后台管理系统
 作者：魏
-这是一个基于Web的官网系统，用于管理网站的内容和文章。
+这是一个基于Web的后台管理系统，用于管理网站的内容和用户信息。
 
 # 安装
 
@@ -22,4 +22,4 @@ SET NODE_OPTIONS=--openssl-legacy-provider &&
 # 使用方法
 登录系统：在浏览器中输入http://localhost:8080，
 #项目链接
- 
+https://18736871304.github.io/cms-wei/dist/index.html

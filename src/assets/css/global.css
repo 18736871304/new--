@@ -1,0 +1,31 @@
+ 
+/* 
+ @font-face {
+   font-family: 'Source Han Serif CN-Bold';
+  src: url('./SourceHanSansSC-Bold-2.otf');
+   font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Han Sans CN-Medium';
+   src: url('./SourceHanSansSC-Medium-2.otf');
+    font-weight: normal;
+  font-style: normal;
+ }
+ @font-face {
+    font-family: 'Source Han Sans CN-Regular';
+   src: url('./SourceHanSansSC-Regular-2.otf');
+    font-weight: normal;
+  font-style: normal;
+ } */
+    html,
+    body,
+    #app{
+        /* height: 100%; */
+        margin: 0;
+        padding: 0;
+    }
+
+
+  

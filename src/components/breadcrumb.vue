@@ -1,0 +1,59 @@
+<template>
+  <div   class="breadcrumbBig">
+    <el-breadcrumb separator-class="el-icon-arrow-right" class="breadcrumb" >
+      当前位置：
+      <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
+      <el-breadcrumb-item v-for="item in navData" :key="item.path" :to="{ path: item.path }">
+        {{item.name}}
+        <!-- -- {{ item.path }} -->
+      </el-breadcrumb-item>
+      <div>正文</div>
+    </el-breadcrumb>
+  </div>
+</template>
+  <script>
+export default {
+  name: 'APP',
+  data() {
+    return {
+      navData:[]
+    }
+  },
+  computed: {
+    // navData() {
+    //   let matche = this.$route.matched;
+    //   matche[0].path = '/home'
+    //   return matche
+    // }
+  },
+  methods: {
+  },
+  created() {
+  },
+  mounted() {
+    this.navData.push(this.$route)
+  },
+}
+  </script>
+<style  scoped>
+.breadcrumbBig{
+  padding: 22px 0;
+  width: 1200px;
+   margin: 0 auto;
+   background: #f5f5f5;
+
+}
+</style>
+  <style   >
+.breadcrumb {
+  display: flex;
+  color: #525151;
+  font-size: 16px;
+  background: #f5f5f5;
+}
+.el-breadcrumb__inner a,
+.el-breadcrumb__inner.is-link {
+  color: #525151;
+  font-weight: normal;
+}
+</style>
