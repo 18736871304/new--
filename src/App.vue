@@ -120,4 +120,31 @@ li {
   text-align: center;
   cursor: pointer;
 }
+
+/* 当屏幕宽度小于1200px时应用的样式 */
+@media (max-width: 1200px) {
+    .newHead{
+      width:1200px;
+    }
+
+    .template{
+       width: 1200px;
+       margin: 0 auto;
+     
+    }
+}
+
+/* 当屏幕宽度大于1200px时应用的样式 */
+@media (min-width: 1200px) {
+
+    .newHead{
+      width:100%;
+      padding: 0;
+     
+    }
+    .template{
+       width: 100%;
+       margin: 0 auto;
+    }
+}
 </style>

@@ -10,21 +10,24 @@ var routes = [
   //   redirect: '/home',
 
   // },
+
   // {
-  //   path: '/home',
-  //   name: "登录",
-  //   meta: {
-  //     title: ''
-  //   },
-  //   component: () => import("../views/home/home.vue"),
+  //   path: '/',
+  //   component: () => import("@/views/index/index.vue"),
+  //   // name: '系统管理',
+  //   redirect: '/home',
+  //   iconCls: 'fa fa-home',
+  //   children: [{
+  //     path: '/home',
+  //     component: () => import("@/views/home/home.vue"),
+  //     name: '首页',
+  //   }, ]
   // },
 
   {
-
     path: '/',
     component: () => import("@/views/home/home.vue"),
     name: '首页',
-
   },
   {
     path: '/message',
