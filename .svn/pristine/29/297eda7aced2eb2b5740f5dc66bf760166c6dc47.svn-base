@@ -230,7 +230,7 @@
           </div>
           <!-- v-if="QRShow" -->
           <div class="QR">
-            <img :src="qrcode" alt="">
+            <img src="../../assets/staffQR.png" alt="">
             <p>咨询专业老师</p>
           </div>
         </div>
@@ -302,8 +302,7 @@ export default {
       claimVisible: false,
       claimContent: '',
       QRShow: false,
-      articleImg: [],
-      qrcode:'',
+      articleImg: []
     };
   },
   computed: {
@@ -370,19 +369,26 @@ export default {
 
 
     init() {
-      console.log(this.$route)
       var _this = this
       var params = {
-        channel: "0016",
+        // articletype: option.articletype,
+        // articleurl: option.articleurl,
+        // position: option.position,
+        // sourcetype: option.sourcetype,
+        // sourcedetail: option.sourcedetail,
+        // code: ''
+
+
         articletype: "01",
-        articleurl: "https://www.un29.com/#/",
+        articleurl: "https://zhuanlan.zhihu.com/p/548018095",
         position: "1",
         sourcetype: "pc",
         code: ''
       }
       getData('get', 'https://insure.meihualife.com/articlebak/getZhiHuArticleQrCode.do', function (data) {
-        var qrcode = JSON.parse(data).qrcode
-        _this.qrcode=qrcode
+        console.log(data)
+        // var data = data.data
+        // _this.actilHtmlMain = data.html
       }, params);
 
 

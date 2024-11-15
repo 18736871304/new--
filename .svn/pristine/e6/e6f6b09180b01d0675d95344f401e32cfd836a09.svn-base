@@ -29,7 +29,6 @@ export default {
       //  window.location.href='http://localhost:8080/#/message'
       //  this.$router.replace('/mb_index')
     } else {
-      console.log(this.$route)
       console.log('pc端')
       //  this.$router.replace('/pc_index')
     }
