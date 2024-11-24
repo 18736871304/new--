@@ -53,6 +53,9 @@ module.exports = {
         patterns: [{
           from: './src/articleImg',
           to: "./articleImg"
+        }, {
+          from: './mobile',
+          to: "./mobile"
         }]
       })
     ]
