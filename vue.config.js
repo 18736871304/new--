@@ -37,15 +37,6 @@ module.exports = {
       },
     },
 
-
-
-
-
-
-
-
-
-
   },
   configureWebpack: {
     plugins: [
@@ -53,10 +44,13 @@ module.exports = {
         patterns: [{
           from: './src/articleImg',
           to: "./articleImg"
-        }, {
-          from: './mobile',
-          to: "./mobile"
-        }]
+        },
+        // {
+        //   from: './mobile',
+        //   to: "./mobile"
+        // }
+      
+      ]
       })
     ]
   }

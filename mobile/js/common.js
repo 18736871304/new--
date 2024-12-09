@@ -20,13 +20,11 @@ function urlLink(str) {
             url: '/articlebak/getZhiHuArticleQrCode.do'
         },
 
-
-
-        // // 绑定卡
-        // bindCard: {
-        //     method: 'post',
-        //     url: '/api/h5/bindCard'
-        // },
+        // 文章内容
+        getHomePageContentList: {
+            method: 'post',
+            url: '/crm/homePage/getHomePageContentList.do'
+        },
         // //获取卡列表
         // getMySimCards: {
         //     method: 'post',
@@ -64,7 +62,6 @@ function ajaxMethod(str, obj) {
         async: false,
         cache: true,
         success: function (data) {
-            console.log(data)
             result = data;
         },
         error: function (res) {
@@ -89,7 +86,7 @@ function ajaxMethodUrl(str, obj) {
         async: false,
         cache: true,
         success: function (data) {
-            console.log(data)
+         
             result = data;
         },
         error: function (res) {
@@ -101,6 +98,8 @@ function ajaxMethodUrl(str, obj) {
     });
     return result;
 };
+
+const  articleImg=['./articleImg/01.jpg','./articleImg/02.jpg','./articleImg/03.jpg','./articleImg/04.jpg','./articleImg/05.jpg','./articleImg/06.jpg','./articleImg/07.jpg','./articleImg/08.jpg','./articleImg/09.jpg','./articleImg/10.jpg','./articleImg/11.jpg','./articleImg/12.jpg','./articleImg/13.jpg','./articleImg/14.jpg','./articleImg/15.jpg','./articleImg/16.jpg','./articleImg/17.jpg','./articleImg/18.jpg','./articleImg/19.jpg','./articleImg/20.jpg']
 // 调用请求方法时
 // var data={
 //     phone:17328728XXX,

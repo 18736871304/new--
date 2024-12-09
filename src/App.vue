@@ -22,30 +22,15 @@ export default {
     // }
   },
   mounted() {
-    // 根据不同路由跳转不同页面
-    if (this.isMobile()) {
-      console.log(this.$route)
-      console.log('手机端')
-      //  window.location.href='http://localhost:8080/#/message'
-      //  this.$router.replace('/mb_index')
-    } else {
-      console.log(this.$route)
-      console.log('pc端')
-      //  this.$router.replace('/pc_index')
-    }
+  
   },
 
   methods: {
-    // 判断是否是手机端，如果是，返回true
-    isMobile() {
-      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
-      console.log(flag)
-      return flag
-    }
+   
   }
 };
 </script>
-
+ 
 <style>
 * {
   margin: 0;
@@ -124,28 +109,25 @@ li {
 
 /* 当屏幕宽度小于1200px时应用的样式 */
 @media (max-width: 1200px) {
-    .newHead{
-      width:1200px;
-    }
+  .newHead {
+    width: 1200px;
+  }
 
-    .template{
-       width: 1200px;
-       margin: 0 auto;
-     
-    }
+  .template {
+    width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 /* 当屏幕宽度大于1200px时应用的样式 */
 @media (min-width: 1200px) {
-
-    .newHead{
-      width:100%;
-      padding: 0;
-     
-    }
-    .template{
-       width: 100%;
-       margin: 0 auto;
-    }
+  .newHead {
+    width: 100%;
+    padding: 0;
+  }
+  .template {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 </style>

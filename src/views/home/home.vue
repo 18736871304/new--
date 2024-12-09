@@ -1,6 +1,7 @@
 <template>
 
   <div class="template">
+
     <Head></Head>
     <div class="bujv">
       <div class="rank_row">
@@ -303,7 +304,7 @@ export default {
       claimContent: '',
       QRShow: false,
       articleImg: [],
-      qrcode:'',
+      qrcode: '',
     };
   },
   computed: {
@@ -331,9 +332,22 @@ export default {
     this.monthRank()
     window.addEventListener('scroll', this.handleScroll, true)
 
+    // 根据不同路由跳转不同页面
+    if (this.isMobile()) {
+      console.log('手机端')
+      window.location.href = 'https://www.un29.com/mobile/index.html'
+    }
+
+
+
   },
   methods: {
-
+    // 判断是否是手机端，如果是，返回true
+    isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      console.log(flag)
+      return flag
+    },
     // 点击滚动向上
     handleScroll() {
       // 获取页面顶部的高度，要写！！这样页面滚动的时候才能获取到页面滚动距离顶部的高度
@@ -382,7 +396,7 @@ export default {
       }
       getData('get', 'https://insure.meihualife.com/articlebak/getZhiHuArticleQrCode.do', function (data) {
         var qrcode = JSON.parse(data).qrcode
-        _this.qrcode=qrcode
+        _this.qrcode = qrcode
       }, params);
 
 
