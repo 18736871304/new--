@@ -18,9 +18,9 @@ let crmUrl = 'https://crm.meihualife.com'; //添加域名
 
 // 获取菜单
 // ?url=https://mp.weixin.qq.com/s/uwoEYga3vGs-VzxsAoqGZA&key=JZL5de6663e10c65e61&verifycode=''
-export const actilHtml = params => {
-	return axios.get(`https://www.dajiala.com/fbmain/monitor/v3/article_html`, params).then(res => res.data);
-};
+// export const actilHtml = params => {
+// 	return axios.get(`https://www.dajiala.com/fbmain/monitor/v3/article_html`, params).then(res => res.data);
+// };
 
 export function getData(type, url, callback, params) {
 

@@ -1186,14 +1186,9 @@
                 this.init();
                 this.hotRank();
                 this.articleRank();
-                // this.claimRank();
-                // this.monthRank()
-                // window.addEventListener('scroll', this.handleScroll, true)
                 // 根据不同路由跳转不同页面
                 if (this.isMobile()) {
-                
                 } else {
-                  
                     window.location.href = 'https://www.un29.com/#/'
                 }
             },
@@ -1301,17 +1296,12 @@
 
 
 
-
-
-
-
                 openPopup() {
                     this.popupVisible = true
                 },
                 openInfo() {
                     this.infoDialogVisible = true
                 },
-
 
                 close() {
                     this.popupVisible = false
@@ -1356,11 +1346,7 @@
                 // 提交表单
                 fromSubmit() {
                     var _this = this
-
-
-
                     if (this.checkTel(this.mobile) && !this.checkEmpty(this.checkno)) {
-
                         var params = {
                             name: this.name.trim(),
                             checkno: this.checkno.trim(),
@@ -1445,15 +1431,6 @@
                     }
                     return false;
                 }
-
-
-
-
-
-
-
-
-
 
             },
         });

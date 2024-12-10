@@ -29,7 +29,6 @@ Vue.prototype.$axios = axios;
 const router = new VueRouter({
   routes,
   mode: 'hash',
-  // mode: 'history'
 })
 
 const routerPush = VueRouter.prototype.push

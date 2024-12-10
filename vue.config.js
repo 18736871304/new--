@@ -23,19 +23,19 @@ module.exports = {
     // // 热更新
     // hotOnly: false,
     // 使用代理
-    proxy: {
-      '/': {
-        // 目标代理服务器地址
-        target: 'https://crm.meihualife.com',
-        // target: 'http://101.132.129.58:18072',
-        // 开启代理，本地创建一个虚拟服务器 允许跨域
-        changeOrigin: true,
-        ws: false,
-        pathRewrite: {
-          // '^/api': '' // 重写请求
-        }
-      },
-    },
+    // proxy: {
+    //   '/': {
+    //     // 目标代理服务器地址
+    //     target: 'https://crm.meihualife.com',
+    //     // target: 'http://101.132.129.58:18072',
+    //     // 开启代理，本地创建一个虚拟服务器 允许跨域
+    //     changeOrigin: true,
+    //     ws: false,
+    //     pathRewrite: {
+    //       // '^/api': '' // 重写请求
+    //     }
+    //   },
+    // },
 
   },
   configureWebpack: {
