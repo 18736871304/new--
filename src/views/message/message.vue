@@ -281,7 +281,7 @@
                   </tr>
 
                   <tr>
-                    <td rowspan="3"><strong>华泰财产保险有限公司</strong></td>
+                    <td rowspan="4"><strong>华泰财产保险有限公司</strong></td>
                     <td>华泰住院保</td>
                     <td><a href="https://www.fxyf99.com/bsite/products/bz0200331954/1476363173804343296">https://www.fxyf99.com/bsite/products/bz0200331954/1476363173804343296</a>
                     </td>
@@ -294,12 +294,12 @@
                       <div>C00015432312021112200983；C00015432522021120102213；C00015432512021120909193
                       </div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="4">
                       <div>
                         http://pc.ehuatai.com/khfw.html
                       </div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="4">
                       <div>400-609-5509</div>
                     </td>
                   </tr>
@@ -343,28 +343,32 @@
                     </td>
                   </tr>
 
-                  <!-- <tr>
-                    <td>华泰中老年意外险</td>
-                    <td><a href="http://t.fxyf99.com/b2dFIQSY">http://t.fxyf99.com/b2dFIQSY</a>
+                  <tr>
+                    <td>华泰防护符3号1-6类职业意外险</td>
+                    <td><a href="https://h5.lecheng18.com/product/index_1178.html#/?productId=1178&companyNo=000001&perCode=751&agentCode=LC783917">https://h5.lecheng18.com/product/index_1178.html#/?productId=1178&companyNo=000001&perCode=751&agentCode=LC783917</a>
                     </td>
                     <td>
-                      <div>华泰财险个人人身意外伤害保险（互联网专属）
-                        华泰财险附加意外伤害医疗保险A款（互联网专属）
-                        华泰财险附加意外伤害住院津贴保险（互联网专属）
-                        华泰财险附加意外骨折保险（互联网专属）
-                        华泰财险附加救护车车费保险（A款）条款</div>
+                      <div>华泰财险个人人身意外伤害保险（互联网专属）；
+                        华泰财险交通工具意外伤害保险（互联网专属）条款；
+                        华泰财险火车意外伤害保险（互联网专属）；
+                        华泰财险附加意外伤害医疗保险C款（互联网专属）条款；
+                        华泰财险附加意外伤害住院津贴保险（互联网专属）；
+                        华泰财险附加意外重症监护津贴保险（互联网专属）；
+                        华泰财险附加救护车车费保险（B款）</div>
                     </td>
                     <td>
-                      <div>C00015432312022021814553
-                        C00015432522021120102203
-                        C00015432522021120102033
-                        C00015432322021121421453
-                        C00015431922021120102053</div>
+                      <div>C00015432312022021814553；
+                        C00015432312021112200993；
+                        C00015432312024060703913；
+                        C00015432522021120102213；
+                        C00015432522021120102033；
+                        C00015432522021121517223；
+                        C00015431922024071902233</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
-                    <td rowspan="3"><strong>太平洋健康保险股份有限公司</strong></td>
+                    <td rowspan="5"><strong>太平洋健康保险股份有限公司</strong></td>
                     <td>太平洋健康蓝医保长期医疗险（20年期费率可调）</td>
                     <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/338760.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/338760.shtml</a>
                     </td>
@@ -374,12 +378,12 @@
                     <td>
                       <div>太平洋健康险[2021]医疗保险040号/报备文号太保健〔2021〕150号</div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="5">
                       <div>
                         http://health.cpic.com.cn/jkx/gkxxpl/cfnlxxzq/?subMenu=4&inSub=3
                       </div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="5">
                       <div>10108686</div>
                     </td>
                   </tr>
@@ -414,6 +418,37 @@
                     </td>
                   </tr>
 
+                  <tr>
+                    <td>太平洋健康蓝医保·住院医疗险</td>
+                    <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/350418.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/350418.shtml</a>
+                    </td>
+                    <td>
+                      <div>太保互联网住院医疗保险</div>
+                    </td>
+                    <td>
+                      <div>太保健[2023]100号</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>太保蓝医保（好医好药版）长期医疗险</td>
+                    <td><a href="https://dwz.cn/wfvY8gzW">https://dwz.cn/wfvY8gzW</a>
+                    </td>
+                    <td>
+                      <div>太保互联网个人长期B款医疗保险（费率可调）；
+                        太保附加互联网特需医疗保险；
+                        太保附加互联网重大疾病特需医疗保险；
+                        太保附加互联网住院费用补偿医疗保险；
+                        太保互联网个人门急诊C款医疗保险</div>
+                    </td>
+                    <td>
+                      <div>太保健[2024]181号
+                        太保健[2024]181号
+                        太保健[2024]181号
+                        太保健[2024]181号
+                        太保健[2024]181号</div>
+                    </td>
+                  </tr>
                   <!-- <tr>
                   <td>太平洋保险蓝鲸1号终身重疾险</td>
                   <td><a href="https://iyb.tm/qG5triuig">https://iyb.tm/qG5triuig</a>
@@ -449,7 +484,6 @@
                     </td>
 
                   </tr>
-             
 
                   <tr>
                     <td>平安超级卫士少儿保险</td>
@@ -596,57 +630,7 @@
                   </tr>
 
                   <tr>
-                    <td rowspan="12"><strong>中国人民财产保险股份有限公司</strong></td>
-                    <td>中国人保老人意外险</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?id=160270&chn=cps_159517856&vscene=1">https://www.baodan100.com/insurance/detail?id=160270&chn=cps_159517856&vscene=1</a>
-                    </td>
-                    <td>
-                      <div>中老年人意外伤害保险（互联网专属）条款；附加意外伤害医疗保险A款（互联网专属）条款</div>
-                    </td>
-                    <td>
-                      <div>C00000232312022011101031；C00000232312022011101031</div>
-                    </td>
-                    <td rowspan="12">
-                      <div>
-                        https://www.picc.com/fuwu/
-                      </div>
-                    </td>
-                    <td rowspan="12">
-                      <div>95518</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>中国人保大护甲5号意外险（高龄版）</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?id=174486&chn=cps_159517856">https://www.baodan100.com/insurance/detail?id=174486&chn=cps_159517856</a>
-                    </td>
-                    <td>
-                      <div>
-                        中老年人意外伤害保险（互联网专属）条款
-                        附加意外伤害医疗保险A款（互联网专属）条款
-                        附加意外伤害骨折和脱臼保险（互联网专属）条款
-                        附加意外伤害住院津贴保险A款（互联网专属）条款
-                        附加救护车费用保险A款（互联网专属）条款
-                        附加调整意外健康险保险金额保险（互联网专属）条款
-                        附加超龄人员保险（互联网专属）条款
-                        附加扩展承保自费医疗费用保险A款（互联网专属）条款
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        C00000232312022011101031
-                        C00000232522021122029123
-                        C00000232322022012384393
-                        C00000232522021122434983
-                        C00000232522021122951643
-                        C00000231922021122030243
-                        C00000231922021123165853
-                        C00000232522021122328183
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr>
+                    <td rowspan="11"><strong>中国人民财产保险股份有限公司</strong></td>
                     <td>人保统护卫</td>
                     <td><a href="https://www.fxyf99.com/product/detail?c=bz0200331954&id=1542759811097223168">hhttps://www.fxyf99.com/product/detail?c=bz0200331954&id=1542759811097223168</a>
                     </td>
@@ -678,22 +662,15 @@
                         C00000232322022012384393
                       </div>
                     </td>
+                    <td rowspan="11">
+                      <div>
+                        https://www.picc.com/fuwu/
+                      </div>
+                    </td>
+                    <td rowspan="11">
+                      <div>95518</div>
+                    </td>
                   </tr>
-                  <!-- <tr>
-                    <td>人保防护符2号高危职业意外险</td>
-                    <td><a href="https://h5.51tsbx.com/product/entry.html?productId=286&companyNo=000348&perCode=1417&agentCode=">https://h5.51tsbx.com/product/entry.html?productId=286&companyNo=000348&perCode=1417&agentCode=</a>
-                    </td>
-                    <td>
-                      <div>
-                        中国人民财产保险股份有限公司意外伤害保险（互联网专属）条款；中国人民财产保险股份有限公司附加急性病身故保险（互联网专属）条款；中国人民财产保险股份有限公司附加意外伤害医疗保险A款（互联网专属）条款
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        C00000232312021122732193；C00000231922021122838493；C00000232522021122029123
-                      </div>
-                    </td>
-                  </tr> -->
 
                   <tr>
                     <td>中国人保大护甲6号意外险（易投版）</td>
@@ -960,7 +937,33 @@
                   </tr>
 
                   <tr>
-                    <td rowspan="5"> <strong>中国人民人寿保险股份有限公司</strong></td>
+                    <td>中国人保大护甲6号意外险（高龄版）</td>
+                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_136241616-agent_0&chn=cps_159517856&id=177093&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_136241616-agent_0&chn=cps_159517856&id=177093&vscene=1</a>
+                    </td>
+                    <td>
+                      <div>中老年人意外伤害保险（互联网专属）条款；
+                        附加意外伤害医疗保险A款（互联网专属）条款；
+                        附加意外伤害骨折和脱臼保险（互联网专属）条款；
+                        附加意外伤害住院津贴保险A款（互联网专属）条款；
+                        附加救护车费用保险A款（互联网专属）条款；
+                        附加调整意外健康险保险金额保险（互联网专属）条款；
+                        附加超龄人员保险（互联网专属）条款；
+                        附加扩展承保自费医疗费用保险A款（互联网专属）条款</div>
+                    </td>
+                    <td>
+                      <div>C00000232312022011101031；
+                        C00000232522021122029123；
+                        C00000232322022012384393；
+                        C00000232522021122434983；
+                        C00000232522021122951643；
+                        C00000231922021122030243；
+                        C00000231922021123165853；
+                        C00000232522021122328183</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td rowspan="6"> <strong>中国人民人寿保险股份有限公司</strong></td>
 
                     <td>中国人保金医保少儿长期医疗险（0免赔）产品组合</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?id=175490&chn=cps_159517856&vscene=1&brid=shortbuy_46058197-agent_0">https://www.baodan100.com/insurance/detail?id=175490&chn=cps_159517856&vscene=1&brid=shortbuy_46058197-agent_0</a>
@@ -976,12 +979,12 @@
                         人保寿险[2023]医疗保险074号</div>
                     </td>
 
-                    <td rowspan="5">
+                    <td rowspan="6">
                       <div>
                         www.picc.com
                       </div>
                     </td>
-                    <td rowspan="5">
+                    <td rowspan="6">
                       <div>95518</div>
                     </td>
                   </tr>
@@ -1043,20 +1046,17 @@
                     </td>
                   </tr>
 
-                  <!-- <tr>
-                  <td>人保寿险i无忧2.0重大疾病保险</td>
-                  <td><a
-                      href="https://m.inswin.cn/r101524/buy/template-342.shtml?riskCode=232501002">https://m.inswin.cn/r101524/buy/template-342.shtml?riskCode=232501002</a>
-                  </td>
-                  <td>
-                    <div>
-                      人保寿险i无忧2.0重大疾病保险（B款）（互联网专属）条款；人保寿险i无忧2.0重大疾病保险（A款）（互联网专属）条款
-                    </div>
-                  </td>
-                  <td>
-                    <div>人保寿险[2023]疾病保险051号；人保寿险[2023]疾病保险050号；</div>
-                  </td>
-                </tr> -->
+                  <tr>
+                    <td>人保寿险i无忧3.0重大疾病保险</td>
+                    <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/355159.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/355159.shtml</a>
+                    </td>
+                    <td>
+                      <div>人保寿险i无忧3.0重大疾病保险（互联网专属）</div>
+                    </td>
+                    <td>
+                      <div>人保寿险[2024]疾病保险050号</div>
+                    </td>
+                  </tr>
 
                   <tr>
                     <td rowspan="27"><strong>众安在线财产保险股份有限公司</strong></td>
@@ -1830,6 +1830,18 @@
                   </tr>
 
                   <tr>
+                    <td>同方全球「臻享年年2024」互联网养老年金保险</td>
+                    <td><a href="https://www.baodan100.com/insurance/fin?brid=longbuy_136469740-agent_0&chn=cps_159517856&id=176821&vscene=1#/">https://www.baodan100.com/insurance/fin?brid=longbuy_136469740-agent_0&chn=cps_159517856&id=176821&vscene=1#/</a>
+                    </td>
+                    <td>
+                      <div>同方全球「臻享年年2024」互联网养老年金保险</div>
+                    </td>
+                    <td>
+                      <div>同方全球人寿[2024]养老年金保险019号</div>
+                    </td>
+                  </tr>
+
+                  <tr>
                     <td rowspan="7"><strong>平安健康保险股份有限公司</strong></td>
                     <td>平安e生保互联网长期医疗（费率可调）保险产品组合</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?id=173826&chn=cps_159517856&vscene=1">https://www.baodan100.com/insurance/detail?id=173826&chn=cps_159517856&vscene=1</a>
@@ -2577,66 +2589,7 @@
                   </tr>
 
                   <tr>
-                    <td><strong>亚太财产保险有限公司</strong></td>
-                    <td>亚太麒麟保2号意外险</td>
-                    <td><a href="https://iyb.tm/GiMKR00Sh">https://iyb.tm/GiMKR00Sh</a>
-                    </td>
-                    <td>
-                      <div>亚太财产保险有限公司个人人身意外伤害保险(B款)(互联网专属)条款；
-                        亚太财产保险有限公司个人交通意外伤害保险(互联网专属)条款；
-                        亚太财产保险有限公司预防接种意外伤害保险(互联网专属)条款；
-                        亚太财产保险有限公司自行车驾驶人员个人意外伤害保险(互联网专属)条款；
-                        亚太财产保险有限公司附加ICU住院津贴保险(互联网专属)条款；
-                        亚太财产保险有限公司附加猝死保险(互联网专属)条款；
-                        亚太财产保险有限公司附加公共场所个人责任保险条款；
-                        亚太财产保险有限公司附加意外伤害救护车费用保险条款；
-                        亚太财产保险有限公司附加意外伤害医疗保险(B款)(互联网专属)条款</div>
-                    </td>
-                    <td>
-                      <div>C00003832312023071910081；
-                        C00003832312023051183493；
-                        C000038134012021121013873；
-                        C00003832312023030939163；
-                        C00003832522023030939183；
-                        C00003831922023040461023；
-                        C00003830922023042473913；
-                        C00003831922022061800343；
-                        C00003832522021121719413</div>
-                    </td>
-                    <td>
-                      <div>
-                        https://www.apiins.com/maechannel/home.do
-                      </div>
-                    </td>
-                    <td>
-                      <div>95506</div>
-                    </td>
-                  </tr>
-
-                  <!-- <tr>
-                  <td><strong>复星保德信人寿保险有限公司</strong></td>
-                  <td rowspan="1">复星保德信大黄蜂10号少儿重疾险（旗舰版）</td>
-                  <td><a
-                      href="https://www.baodan100.com/insurance/detail?brid=longbuy_56690781-agent_0&chn=cps_159517856&id=175629&vscene=1">https://www.baodan100.com/insurance/detail?brid=longbuy_56690781-agent_0&chn=cps_159517856&id=175629&vscene=1</a>
-                  </td>
-                  <td>
-                    <div>复星保德信星未来A款重大疾病保险(互联网专属)条款</div>
-                  </td>
-                  <td>
-                    <div>复星保德信人寿[2024]疾病保险002号</div>
-                  </td>
-                  <td rowspan="1">
-                    <div>
-                      https://www.pflife.com.cn/cpramericaFosun/publish/main/homePage/index.html
-                    </div>
-                  </td>
-                  <td rowspan="1">
-                    <div>400-821-6808</div>
-                  </td>
-                </tr> -->
-
-                  <tr>
-                    <td rowspan="10"><strong>京东安联财产保险有限公司</strong></td>
+                    <td rowspan="11"><strong>京东安联财产保险有限公司</strong></td>
                     <td>京东安联京彩一生防癌医疗险（互联网2023版）</td>
                     <td><a href="https://m.jdallianz.com/ins-temp-m/detail?p=2028&jdaz_chl=MH&jdaz_source=MH">https://m.jdallianz.com/ins-temp-m/detail?p=2028&jdaz_chl=MH&jdaz_source=MH</a>
                     </td>
@@ -2650,12 +2603,12 @@
                         C00005032522023073113381;(京东安联)(备-医疗保险)【2023】(附)224号
                         C00005032612023073113281;(京东安联)(备-疾病保险)【2023】(主)061号</div>
                     </td>
-                    <td rowspan="10">
+                    <td rowspan="11">
                       <div>
                         https://www.jdallianz.com/
                       </div>
                     </td>
-                    <td rowspan="10">
+                    <td rowspan="11">
                       <div>950610</div>
                     </td>
                   </tr>
@@ -2917,68 +2870,35 @@
                     </td>
                   </tr>
 
-                  <!-- <tr>
-                  <td><strong>中国人民健康保险股份有限公司</strong></td>
-                  <td rowspan="1">人保健康金欣卫重大疾病保险</td>
-                  <td><a
-                      href="https://h5.51tsbx.com/product/entry.html?productId=580&companyNo=000348&perCode=1417&agentCode=">https://h5.51tsbx.com/product/entry.html?productId=580&companyNo=000348&perCode=1417&agentCode=</a>
-                  </td>
-                  <td>
-                    <div>人保健康欣安福互联网重大疾病保险条款</div>
-                  </td>
-                  <td>
-                    <div>人保健康[2024]疾病保险013号</div>
-                  </td>
-                  <td rowspan="1">
-                    <div>
-                      https://picczg380.etlong.com/
-                    </div>
-                  </td>
-                  <td rowspan="1">
-                    <div> 95591</div>
-                  </td>
-                </tr> -->
-
-                  <!-- <tr>
-                    <td><strong>中银保险有限公司</strong></td>
-                    <td rowspan="1">中银全民保医疗险</td>
-                    <td><a href="https://iyb.tm/0McfxraXH">https://iyb.tm/0McfxraXH</a>
+                  <tr>
+                    <td>京东安联臻爱无限医疗保险（互联网Pro版）</td>
+                    <td><a href="https://m.jdallianz.com/ins-temp-m/detail?fromShare=1&p=2165&jdaz_chl=MH&jdaz_source=MH&jdaz_agentCode=31013259&sid=31013259">https://m.jdallianz.com/ins-temp-m/detail?fromShare=1&p=2165&jdaz_chl=MH&jdaz_source=MH&jdaz_agentCode=31013259&sid=31013259</a>
                     </td>
                     <td>
-                      <div>中银保险有限公司个人医疗保险(C款)(互联网专属)条款</div>
+                      <div>京东安联财产保险有限公司个人住院医疗费用补偿保险条款（互联网吉祥版）；
+                        京东安联财产保险有限公司附加特定药械费用补偿医疗保险条款（互联网版）；
+                        京东安联财产保险有限公司附加重大疾病异地转诊公共交通费用及救护车费用保险条款（互联网版）；
+                        京东安联财产保险有限公司附加重症监护病房津贴医疗保险条款（互联网版）；
+                        京东安联财产保险有限公司附加个人100种特定疾病每日住院津贴保险条款（互联网通用版）；
+                        京东安联财产保险有限公司附加恶性肿瘤-重度先进疗法医疗保险条款（互联网版）；
+                        京东安联财产保险有限公司个人人身意外伤害保险条款（互联网版）；
+                        京东安联财产保险有限公司附加个人重大疾病保险条款（互联网版）；
+                        京东安联财产保险有限公司附加个人住院医疗费用补偿保险条款（互联网住院医疗版)；
+                        京东安联财产保险有限公司附加个人住院特定医疗费用及在线问诊药品服务保险条款（互联网版）</div>
                     </td>
                     <td>
-                      <div>C00004632512022102809853</div>
+                      <div>C00005032512023073113291；
+                        C00005032522024062803013；
+                        C00005032522023102076811；
+                        C00005032522024062803023；
+                        C00005032522023073113591；
+                        C00005032522024062803033；
+                        C00005032312023082939611；
+                        C00005032622024062802973；
+                        C00005032522023112096271；
+                        C00005032522024062802983</div>
                     </td>
-                    <td rowspan="1">
-                      <div>
-                        https://www.boc.cn/bocins/
-                      </div>
-                    </td>
-                    <td rowspan="1">
-                      <div>95566</div>
-                    </td>
-                  </tr> -->
-                  <!-- <tr>
-                <td><strong>中国太平洋人寿保险股份有限公司</strong></td>
-                <td rowspan="1">太保瑞有余养老年金保险（互联网）</td>
-                <td><a href="https://iyb.tm/DmSBxeS14">https://iyb.tm/DmSBxeS14</a>
-                </td>
-                <td>
-                    <div>太保瑞有余养老年金保险（互联网）</div>
-                </td>
-                <td>
-                    <div>太平洋人寿[2024]养老年金保险 009 号</div>
-                </td>
-                <td rowspan="1">
-                    <div>
-                      http://life.cpic.com.cn/xrsbx/
-                    </div>
-                </td>
-                <td rowspan="1">
-                    <div>95500</div>
-                </td>
-            </tr> -->
+                  </tr>
 
                   <tr>
                     <td><strong>信美人寿相互保险社</strong></td>
@@ -3110,6 +3030,48 @@
                     </td>
                     <td rowspan="1">
                       <div>95500</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><strong>中英人寿保险有限公司</strong></td>
+                    <td rowspan="1">中英人寿福临门两全保险A款（互联网）</td>
+                    <td><a href="https://www.inswin.cn/r101524/renshou-baoxian/355724.shtml">https://www.inswin.cn/r101524/renshou-baoxian/355724.shtml</a>
+                    </td>
+                    <td>
+                      <div>中英人寿福临门两全保险A款（互联网）</div>
+                    </td>
+                    <td>
+                      <div>中英人寿[2024]两全保险077号</div>
+                    </td>
+                    <td rowspan="1">
+                      <div>
+                        http://www.aviva-cofco.com.cn
+                      </div>
+                    </td>
+                    <td rowspan="1">
+                      <div>95545</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><strong>中国人寿财产保险股份有限公司</strong></td>
+                    <td rowspan="1">中国人寿财险惠享保（免健告）百万医疗</td>
+                    <td><a href="https://iyb.tm/W8zRjwCIt">https://iyb.tm/W8zRjwCIt</a>
+                    </td>
+                    <td>
+                      <div>中国人寿财产保险股份有限公司个人住院医疗保险E（互联网专属，Z款）</div>
+                    </td>
+                    <td>
+                      <div>C00010832512024110601313</div>
+                    </td>
+                    <td rowspan="1">
+                      <div>
+                        https://www.e-chinalife.com/
+                      </div>
+                    </td>
+                    <td rowspan="1">
+                      <div>95519</div>
                     </td>
                   </tr>
                   <!-- <tr>
@@ -3257,7 +3219,7 @@
                   <tr>
                     <td>华贵人寿保险股份有限公司</td>
                     <td>
-                      2021-12-29--2024-12-29
+                      2021-12-29--2025-12-29
                     </td>
                     <td>
                       寿险
@@ -3539,7 +3501,7 @@
                   </td>
                 </tr> -->
 
-                  <tr>
+                  <!-- <tr>
                     <td>中兴保险经纪有限公司</td>
                     <td>
                       <a href="https://www.bjzxbx.com/">https://www.bjzxbx.com/</a>
@@ -3550,7 +3512,7 @@
                     <td>
                       保险推广业务合作
                     </td>
-                  </tr>
+                  </tr> -->
 
                   <tr>
                     <td>慧择保险经纪有限公司</td>
@@ -3571,7 +3533,7 @@
                       <a href="https://www.safeinsurebroker.com/">https://www.safeinsurebroker.com/</a>
                     </td>
                     <td>
-                      2022-01-01--2024-12-31
+                      2022-01-01--2025-12-31
                     </td>
                     <td>
                       保险推广业务合作

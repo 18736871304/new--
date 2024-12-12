@@ -38,14 +38,6 @@ VueRouter.prototype.push = function push(location) {
 
 
 
-
-
-
-
-
-
-
-
 // 请求拦截器
 axios.interceptors.request.use(config => {
   //为请求头对象，添加token验证的Authorization字段
