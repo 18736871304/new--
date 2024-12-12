@@ -1,0 +1,1366 @@
+<template>
+
+  <div class="template">
+
+    <Head></Head>
+    <div class="bujv">
+      <div class="rank_row">
+        <div class="hotRank">
+          <div class="title blod">保险热销 </div>
+          <div class="hotRank-top">
+            <div class="top-main">
+              <el-tabs v-model="activeName" @tab-click="handleClick">
+
+                <el-tab-pane label="意外" name="01"></el-tab-pane>
+                <el-tab-pane label="医疗" name="02"></el-tab-pane>
+                <el-tab-pane label="重疾" name="03"></el-tab-pane>
+                <el-tab-pane label="定寿" name="04"></el-tab-pane>
+                <el-tab-pane label="理财" name="05"></el-tab-pane>
+                <el-tab-pane label="车险" name="06"></el-tab-pane>
+                <el-tab-pane label="其他" name="07"></el-tab-pane>
+              </el-tabs>
+            </div>
+
+            <div class="lookMore articleLookMore">
+
+              <router-link :to="'/productList/'+activeName">查看更多></router-link>
+            </div>
+          </div>
+          <div class="tabMain">
+            <div class="tabMain_box">
+              <ul class="insuranceType" v-if="riskList.length>0">
+                <li v-for="item in riskList" :key="item.riskcode">
+                  <a :href="item.url" class="insureBox" target="_bank">
+                    <div class="insure_leftBox">
+                      <div>
+                        <h3>{{ item.title }}</h3>
+                        <p class="insDec"> {{ item.description }}</p>
+                      </div>
+
+                      <div class="comany_logo">
+                        <img :src="item.logo" alt="">
+                        <p class="insMoney"><span>￥</span><span>{{item.prem}}</span>/首年起</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+
+              <div class="insuranceType" style="width: 780px;" v-else>
+                <div style="margin: 0 auto;">
+                  <img src="../../assets/No.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="findPro">
+          <div class="title" style=" margin-bottom: 10px;">
+            <span class="blod">理赔公告</span>
+          </div>
+          <div>
+            <ul>
+              <li v-for="item in claimsList" :key="item.id" @click="claimItem(item)">
+                <div class="lipeiList">
+                  <img src="../../assets/icon2.png" alt="">
+                  <p>{{item.title}}</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="bujv" style="background: #F5F7FF;">
+
+      <div class="rank_row">
+        <div class="hotRank mainRank">
+          <div class="title blod">内容精选</div>
+          <div class="hotRank-top ">
+            <div class="top-main">
+              <el-tabs v-model="articleTypeName" @tab-click="articleTypeClick" class="articleTypeList">
+                <el-tab-pane label="推荐" name="00">
+                  <div slot="label" class="dianzan">
+                    <p class="zan"></p>
+                    <p>推荐</p>
+                  </div>
+                </el-tab-pane>
+                <el-tab-pane label="产品测评" name="01"></el-tab-pane>
+                <el-tab-pane label="保险科普" name="02"></el-tab-pane>
+                <el-tab-pane label="挑选指南" name="03"></el-tab-pane>
+                <el-tab-pane label="避坑专题" name="04"></el-tab-pane>
+                <el-tab-pane label="产品榜单" name="05"></el-tab-pane>
+                <el-tab-pane label="理财观念" name="06"></el-tab-pane>
+                <el-tab-pane label="保障观念" name="07"></el-tab-pane>
+                <el-tab-pane label="社会热点" name="08"></el-tab-pane>
+                <el-tab-pane label="其他类型" name="09"></el-tab-pane>
+
+              </el-tabs>
+            </div>
+          </div>
+
+          <div class="tabMain">
+
+            <div class="tabMain_box">
+              <ul class="articleList">
+                <li v-for="item in articleList" :key="item.id" @click="navigateToSomewhere(item.id)">
+                  <div class="article_left">
+
+                    <!-- <img :src="item.head_pic_url" alt="" referrerpolicy="no-referrer"> -->
+                    <img :src="articleImg[Math.floor(Math.random() * 20)]" alt="" referrerpolicy="no-referrer">
+                  </div>
+                  <div class="article_right">
+                    <div>
+                      <h3>{{item.title}}</h3>
+                      <p class="article_dec"> {{ item.info }}</p>
+                    </div>
+                    <p>发布时间：{{ item.publishtime }}</p>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="articleLookMore">
+                <router-link :to="'/ArticleList/'+articleTypeName">查看更多></router-link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="findPro">
+          <div class="title" style="border-bottom:0 ;margin-bottom: 0;padding-bottom: 27px;">
+            <span class="blod">本月榜单</span>
+          </div>
+          <div>
+            <ul>
+
+              <li v-for="(item,index) in monthArticleList" :key="index" @click="navigateToSomewhere(item.id)" style="width: 100%;">
+                <div class="monthank" v-if="index==0" style="height: 130px;">
+                  <div class="monthankicon">
+                    <img src="../../assets/1.png" alt="">
+                  </div>
+                  <div class="monthankMain">
+                    <p> {{item.title}}
+                    </p>
+                    <p class="lookPeople">已有39960人看过</p>
+                  </div>
+
+                </div>
+
+                <div class="monthank" v-else-if="index==1" style="height: 130px;">
+                  <div class="monthankicon">
+                    <img src="../../assets/2.png" alt="">
+                  </div>
+
+                  <div class="monthankMain">
+                    <p> {{item.title}}
+                    </p>
+                    <p class="lookPeople">已有331960人看过</p>
+                  </div>
+
+                </div>
+
+                <div class="monthank" v-else-if="index==2" style="height: 130px;">
+                  <div class="monthankicon">
+                    <img src="../../assets/3.png" alt="">
+                  </div>
+
+                  <div class="monthankMain">
+                    <p>{{item.title}} </p>
+                    <p class="lookPeople">已有28463人看过</p>
+                  </div>
+
+                </div>
+
+                <div class="monthank" v-else>
+                  <div class="monthankicon">
+                    <p>{{ index+1 }}</p>
+                  </div>
+
+                  <div class="monthankMain">
+                    <p>{{item.title}} </p>
+                    <!-- <p></p> -->
+                  </div>
+
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bujv">
+      <div class="rank_row">
+        <div class="reser" @click="openPopup">
+          <img src="../../assets/yuyueBanner.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="bujv">
+      <div class="rank_row companyList">
+        <div class="companytitle">
+          <p>部分合作伙伴</p>
+          <p>100+保险公司，1000+保险产品可供您的选择</p>
+        </div>
+        <div class="hzCompany">
+          <img src="../../assets/comany.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <footBottom></footBottom>
+
+    <div class="sideNav">
+
+      <div class="sideNav_box1" @click="openPopup">
+        <img src="../../assets/yuyue.png" alt="">
+      </div>
+
+      <div class="sideNav_shadow">
+        <div class="sideNav_box2">
+          <!-- @click="QRclick" -->
+          <div class="sideNavTxt">
+            <!-- <img src="../../assets/qrCodeicon.png" alt=""> -->
+            <div class="bgImg"></div>
+            <p>扫描二维码</p>
+          </div>
+          <!-- v-if="QRShow" -->
+          <div class="QR">
+            <img :src="qrcode" alt="">
+            <p>咨询专业老师</p>
+          </div>
+        </div>
+
+        <div class="sideNav_box3" @click="toTop">
+          <a class="scroll-to-top">
+            <img src="../../assets/topClickicon.png" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <el-dialog title="" :visible.sync="popupVisible" width="640px">
+      <div>
+        <popup></popup>
+      </div>
+    </el-dialog>
+
+    <el-dialog title="理赔结案详情" :visible.sync="claimVisible" width="640px" custom-class="claimPopup" :close-on-click-modal="false">
+      <div class="claimBox">
+        <div v-html="claimContent"></div>
+        <!-- <div class="">基本信息</div>
+        <div></div>
+        <div class="">理赔记录</div> -->
+      </div>
+    </el-dialog>
+
+  </div>
+</template>
+
+<script>
+import { articleImg, getData } from "../../api/api";
+import footBottom from "../../components/footBottom.vue";
+import popup from "../../components/popup.vue";
+import Head from "../head/head";
+export default {
+  metaInfo: {
+    title: '美华保险可购买意外险,医疗险,重疾险,定期寿险,理财保险等', //设置页面title
+    meta: [{                 //设置页面meta
+      name: 'keyWords',
+      content: '美华保险,美华保险电话,美华保险意外险,美华保险医疗险,美华保险重疾险,医疗保险,养老保险,重大疫病保险,大病保险,保险查询,保险咨询,保险理赔'
+    },
+    {
+      name: "description",
+      content: "美华保险销售有限公司，成立于2008年11月，是经国家金融监督管理总局(原银保监会)批准设立的首批全国综合性保险服务持牌机构。总部位于上海，注册资金实缴5000万，战略合作全国多达80余家保险公司，提供近千款产品甄选服务，涵盖意外险、医疗险、重疾险、人寿险、年金险、车险等全险种产品，服务用户超过3000万人次。",
+    },]
+  },
+  components: {
+    // 局部注册组件
+    footBottom: footBottom,
+    popup: popup,
+    Head: Head
+  },
+  data() {
+    return {
+      activeName: '03',
+      tablabel: '重疾险',
+      pageLoaded: false,
+      actilHtmlMain: '',
+      claimsList: '',
+      articleTypeName: '00',
+      articleTypelabel: '推荐',
+      popupVisible: false,
+      // bottomTan: true,
+      riskList: '',
+      articleList: '',
+      monthArticleList: '',
+      claimVisible: false,
+      claimContent: '',
+      QRShow: false,
+      articleImg: [],
+      qrcode: '',
+    };
+  },
+  computed: {
+
+  },
+  created() {
+    this.$bus.$on('brotherEvent', res => {
+      if (res == 'close') {
+        this.popupVisible = false
+      } else {
+        this.popupVisible = true
+      }
+    })
+
+    this.articleImg = articleImg
+
+
+  },
+  mounted() {
+
+    this.init();
+    this.hotRank();
+    this.articleRank();
+    this.claimRank();
+    this.monthRank()
+    window.addEventListener('scroll', this.handleScroll, true)
+
+    // 根据不同路由跳转不同页面
+    if (this.isMobile()) {
+      console.log('手机端')
+      window.location.href = 'https://www.un29.com/mobile/index.html'
+    }
+
+
+
+  },
+  methods: {
+    // 判断是否是手机端，如果是，返回true
+    isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      console.log(flag)
+      return flag
+    },
+    // 点击滚动向上
+    handleScroll() {
+      // 获取页面顶部的高度，要写！！这样页面滚动的时候才能获取到页面滚动距离顶部的高度
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+      const scrollBox = document.querySelector('.scroll-to-top')
+      // scrollTop > 300 ? scrollBox.style.opacity = 1 : scrollBox.style.opacity = 0
+      // // const scroll = scrollTop - this.i
+      // this.i = scrollTop
+    },
+    toTop() {
+      let top = document.documentElement.scrollTop || document.body.scrollTop
+      // 实现滚动效果
+      const timeTop = setInterval(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = top -= 50
+        if (top <= 0) {
+          clearInterval(timeTop)
+        }
+      }, 10)
+    },
+
+
+    // 选择 险种
+    handleClick(tab, event) {
+      let _this = this;
+      this.tablabel = tab.$props.label
+      this.hotRank();
+    },
+    // 选择文章类型
+    articleTypeClick(tab, event) {
+      let _this = this;
+      this.articleTypelabel = tab.$props.label
+      this.articleRank()
+    },
+
+
+    init() {
+      console.log(this.$route)
+      var _this = this
+      var params = {
+        channel: "0016",
+        articletype: "01",
+        articleurl: "https://www.un29.com/#/",
+        position: "1",
+        sourcetype: "pc",
+        code: ''
+      }
+      getData('get', 'https://insure.meihualife.com/articlebak/getZhiHuArticleQrCode.do', function (data) {
+        var qrcode = JSON.parse(data).qrcode
+        _this.qrcode = qrcode
+      }, params);
+
+
+
+      // 获取文章类型
+      getData('post', 'https://crm.meihualife.com//crm/common/getDictList.do', function (data) {
+        if (data.code == 0) {
+          let {
+            dictList
+          } = data;
+          _this.articleTypeList = dictList;
+        }
+      }, {
+        dict_type: 'contenttype'
+      });
+
+
+
+
+    },
+
+    hotRank() {
+      var _this = this
+      // 保险热销
+      var insuranceType = {
+        risktype: this.activeName,
+        title: '',
+        pageNumber: 1,
+        pageSize: 4,
+        pageTotal: 0,
+        salesArea: '',
+      }
+
+      getData('POST', 'https://crm.meihualife.com/crm/homePage/getHomePageRiskList.do', function (data) {
+        let { rows, total } = data;
+        var data = JSON.parse(data)
+        _this.riskList = data.rows;
+      }, insuranceType);
+    },
+
+
+    // 获取文章内容
+    articleRank() {
+      var _this = this
+      // 保险热销
+      var insuranceType = {
+        type: this.articleTypeName,
+        startDate: '',
+        endDate: '',
+        pageNumber: 1,
+        pageSize: 5,
+      }
+      if (this.articleTypeName == '00') {
+        insuranceType.type = '';
+        insuranceType['istop'] = 'Y'
+      }
+
+      getData('POST', 'https://crm.meihualife.com/crm/homePage/getHomePageContentList.do', function (data) {
+        let { rows, total } = data;
+        var data = JSON.parse(data)
+        _this.articleList = data.rows;
+      }, insuranceType);
+    },
+    // 获取文章内容
+    monthRank() {
+      var _this = this
+      var insuranceType = {
+        type: "'01','02','03','04','05','06','07','08','09'",
+        startDate: '',
+        endDate: '',
+        pageNumber: 1,
+        pageSize: 10,
+      }
+
+      getData('POST', 'https://crm.meihualife.com/crm/homePage/getHomePageContentList.do', function (data) {
+        let { rows, total } = data;
+        var data = JSON.parse(data)
+        _this.monthArticleList = data.rows;
+
+      }, insuranceType);
+    },
+
+    // 获取理赔公告
+    claimRank() {
+      var _this = this
+      var insuranceType = {
+        type: "90",
+        startDate: '',
+        endDate: '',
+        pageNumber: 1,
+        pageSize: 11,
+      }
+
+      getData('POST', 'https://crm.meihualife.com/crm/homePage/getHomePageContentList.do', function (data) {
+        let { rows, total } = data;
+        var data = JSON.parse(data)
+        _this.claimsList = data.rows;
+
+      }, insuranceType);
+    },
+
+
+
+    claimItem(item) {
+      this.claimContent = ''
+      // 获取理赔内容
+      var _this = this
+      var insuranceType = {
+        id: item.id
+      }
+      getData('POST', 'https://crm.meihualife.com/crm/homePage/getOneContent.do', function (data) {
+        var data = JSON.parse(data)
+        if (data.code == '0') {
+          _this.claimContent = data.content
+          _this.claimVisible = true
+        }
+      }, insuranceType);
+    },
+    QRclick() {
+      this.QRShow = !this.QRShow
+    },
+
+    navigateToSomewhere(actileId) {
+      // 假设要跳转到的id是123
+      var aa = actileId
+      // this.$router.push({
+      //   path: "/article/" + aa,
+      //   query: {
+      //     categoryName: '33',
+      //     categoryId: '45'
+      //   }
+      // })
+      var routeData = {
+        path: "/ArticleDetailes/" + aa,
+        query: {
+          // categoryId: '45'
+        }
+      }
+      // 序列化路由对象
+      const routeUrl = this.$router.resolve(routeData).href;
+      window.open(routeUrl, '_blank');
+    },
+
+    openPopup() {
+      this.popupVisible = true
+    },
+
+
+  },
+
+};
+</script>
+
+<style scoped>
+.template {
+  background: #fff;
+  /* padding-top: 20px; */
+}
+.bujv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner_left {
+  width: 864px;
+  height: 280px;
+  margin-right: 16px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+/* 轮播图*/
+.el-carousel__container {
+  height: 280px;
+}
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 280px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: #d3dce6;
+}
+/* 结束 */
+
+.banner_right {
+  width: 320px;
+  height: 280px;
+  position: relative;
+}
+.small_banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.small_banner a {
+  width: 320px;
+  height: 132px;
+}
+.small_banner a img {
+  width: 100%;
+  height: 100%;
+}
+
+.rank_row {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.hotRank {
+  width: 780px;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+
+.findPro {
+  width: 370px;
+  /* background: #fff; */
+  position: relative;
+}
+
+.hotRank-top {
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.top-main {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dianzan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zan {
+  width: 21px;
+  height: 19px;
+  background: url(../../assets/zan_02.png) no-repeat center center;
+  background-size: 100% 100%;
+  margin-right: 2px;
+}
+
+.is-active .zan {
+  width: 21px;
+  height: 19px;
+  background: url(../../assets/zan_01.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.lookMore {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lookMore p {
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #3244a8;
+  cursor: pointer;
+}
+
+.hotRank .title,
+.findPro .title {
+  font-size: 26px;
+  color: #000;
+  margin: 55px auto 27px;
+  font-weight: 700;
+}
+.blod {
+  font-weight: bold;
+}
+::v-deep .el-tabs__active-bar {
+  background-color: #3244a8 !important;
+}
+
+::v-deep .el-tabs__item {
+  font-size: 22px;
+  color: #525151;
+  font-weight: bold;
+}
+::v-deep .el-tabs__item.is-active {
+  font-weight: 700;
+  color: #3244a8;
+}
+::v-deep .el-tabs__item:hover {
+  color: #3244a8;
+}
+.tabMain {
+  position: relative;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.tabMain_box .el-carousel__item {
+  background: #fff;
+}
+.findPro .title {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #e4e7ed;
+}
+.title .lipeiMore {
+  font-size: 22px;
+  color: #3244a8;
+  cursor: pointer;
+  font-weight: unset;
+}
+
+.lipeiList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  width: 100%; /* 设置容器宽度 */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏溢出内容 */
+  text-overflow: ellipsis; /* 使用省略号 */
+  /* border: 1px solid #ccc;   */
+  padding: 5px;
+  padding-left: 20px;
+  width: 345px;
+}
+
+.lipeiList p {
+  width: 100%; /* 设置容器宽度 */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏溢出内容 */
+  text-overflow: ellipsis; /* 使用省略号 */
+  text-align: left;
+  font-size: 18px;
+  margin-left: 12px;
+}
+.insuranceType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.insuranceType li {
+  width: 375px;
+  height: 220px;
+  background: #f5f7ff;
+  box-shadow: 0px 0px 3px 0px #bbbbbb;
+  margin-bottom: 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.insureBox {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.insure_leftBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-bottom: 30px; */
+}
+.insure_rightBox img {
+  margin-top: 20px;
+}
+.insure_leftBox h3 {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 100%;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏溢出内容 */
+  text-overflow: ellipsis; /* 使用省略号 */
+  /* word-wrap: break-word;  
+  overflow-wrap: break-word;  
+  white-space: normal;   */
+}
+.insure_leftBox .insDec {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  font-size: 16px;
+  color: #808080;
+  text-align: left;
+}
+
+.comany_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comany_logo img {
+  width: 156px;
+  height: 31.19px;
+  margin-left: -55px;
+}
+
+.insMoney {
+  text-align: left;
+  color: #000000;
+  font-size: 16px;
+}
+
+.insMoney span:first-child {
+  color: #da251e;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.insMoney span:last-child {
+  color: #da251e;
+  font-size: 30px;
+  /* font-weight: bold; */
+  font-weight: 500;
+}
+
+::v-deep .articleTypeList .el-tabs__nav {
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: break-spaces;
+  word-wrap: break-word; /* 允许在单词内换行 */
+  overflow-wrap: break-word; /* 同上，现代浏览器推荐使用这个属性别名 */
+  white-space: normal; /* 允许自动换行 */
+}
+
+.mainRank .hotRank-top {
+  height: 95px;
+  line-height: 95px;
+}
+
+::v-deep .articleTypeList .el-tabs__active-bar {
+  display: none;
+}
+
+::v-deep .articleTypeList .el-tabs__active-bar {
+  background-color: transparent !important;
+}
+::v-deep .articleTypeList .el-tabs__nav-wrap::after {
+  position: static !important;
+}
+
+::v-deep .articleTypeList .el-tabs__item {
+  width: 105px;
+  background: #fff;
+  text-align: center;
+  padding: 0;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+::v-deep .articleTypeList .el-tabs__item.is-active {
+  width: 105px;
+  background: #3244a8;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin-right: 20px;
+
+  font-weight: 700;
+}
+::v-deep .articleTypeList .el-tabs__item:hover {
+  width: 105px;
+  background: #3244a8;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.articleList li {
+  width: 780px;
+  height: 170px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_left {
+  width: 240px;
+  height: 130px;
+}
+.article_left img {
+  /* width: 240px;
+  height: 130px; */
+  height: 100%;
+  margin: 0 auto;
+  max-width: 240px;
+  object-fit: cover;
+}
+
+.article_right {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.article_right h3 {
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+.article_right p {
+  text-align: left;
+  color: #525151;
+}
+
+.article_right .article_dec {
+  width: 100%;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏溢出内容 */
+  text-overflow: ellipsis; /* 使用省略号 */
+}
+.articleLookMore {
+  text-align: center;
+  font-size: 20px;
+  color: #3244a8;
+  /* margin: 9px auto 50px; */
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.monthank {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 95px;
+  line-height: 30px;
+  font-size: 18px;
+  width: 100%; /* 设置容器宽度 */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏溢出内容 */
+  text-overflow: ellipsis; /* 使用省略号 */
+  /* border: 1px solid #ccc;   */
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px dashed #dddddd;
+}
+.monthankicon {
+  width: 45px;
+  height: 88px;
+  line-height: 88px;
+  position: relative;
+  color: #a3a3a3;
+}
+.monthankicon img {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+.monthankicon p {
+  width: 45px;
+  height: 88px;
+  line-height: 88px;
+  position: relative;
+  color: #a3a3a3;
+  /* border: 1px solid red; */
+}
+.monthankMain {
+  margin-left: 10px;
+}
+
+.monthank .monthankMain p {
+  /* width: 370px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: break-spaces;
+  word-wrap: break-word; /* 允许在单词内换行 */
+  overflow-wrap: break-word; /* 同上，现代浏览器推荐使用这个属性别名 */
+  white-space: normal; /* 允许自动换行 */
+  text-align: left;
+  color: #525151;
+  font-size: 18px;
+}
+
+.monthank .monthankMain .lookPeople {
+  font-size: 16px;
+  color: #5164cf;
+  line-height: 30px;
+  margin-top: 5px;
+}
+.reser img {
+  width: 1200px;
+  height: 300px;
+  /* border: 1px solid red; */
+  margin: 60px auto 0px;
+}
+.companyList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.companytitle p:first-child {
+  font-weight: bold;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.companytitle p:last-child {
+  font-weight: 400;
+  font-size: 16px;
+  color: #525151;
+  text-align: center;
+}
+.hzCompany img {
+  width: 100%;
+}
+
+.footBox {
+  height: 400px;
+  background: #333437;
+  padding-bottom: 0;
+}
+.footMain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.foot_title {
+  font-size: 22px;
+  display: flex;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.foot_title p {
+  margin-left: 170px;
+}
+.foot_right {
+}
+.foot_right p {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.footer-copyright {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*  */
+
+.popup {
+  width: 100%;
+  height: 200px;
+  background: #5483fd;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+.foot_popup {
+  width: 1200px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1001;
+}
+
+.close {
+  position: fixed;
+  bottom: 160px;
+  right: 30px;
+  z-index: 1001;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footBujv-left {
+  width: 725px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: end;
+}
+.footBujv-right {
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 380px;
+  background: #3244a8;
+  border-radius: 10px;
+  color: #fff;
+}
+.popup_right {
+  padding: 10px 35px;
+}
+.popup_right p:first-child {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.insureName {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.insureName .text {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: justify;
+  white-space: pre;
+}
+::v-deep .insureName .el-input {
+  width: 360px;
+  background: #fff;
+  border-radius: 10px;
+}
+::v-deep .insureName .el-input__inner {
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+}
+::v-deep .verification-code .el-input {
+  width: 200px;
+}
+
+::v-deep .insureName .nameValue {
+  width: 360px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.send {
+  color: #3244a8;
+  line-height: 40px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.tijiao {
+  width: 220px;
+  height: 56px;
+  line-height: 56px;
+  background: #ffbe54;
+  border-radius: 28px;
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin: 23px auto;
+}
+
+.popup_right p:last-child {
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* 设置所有输入字段的占位文本字体大小 */
+::v-deep input::-webkit-input-placeholder {
+  font-size: 18px; /* Chrome, Safari, Opera */
+}
+::v-deep input:-moz-placeholder {
+  font-size: 18px; /* Firefox 18- */
+}
+::v-deep input::-moz-placeholder {
+  font-size: 18px; /* Firefox 19+ */
+}
+::v-deep input:-ms-input-placeholder {
+  font-size: 18px; /* Internet Explorer 10+ */
+}
+
+::v-deep .claimPopup .el-dialog__header {
+  text-align: left;
+  border: 1px solid #dcdcdc;
+}
+::v-deep .claimPopup .el-dialog__header .el-dialog__title {
+  text-align: left;
+  color: #000000;
+  font-size: 24px;
+}
+
+::v-deep .claimPopup .claimBox {
+  text-align: left;
+  font-size: 18px;
+}
+::v-deep .claimPopup .claimBox h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* 侧边导航---开始 */
+
+.sideNav {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  z-index: 2000;
+}
+.sideNav .sideNav_box1 {
+  cursor: pointer;
+}
+.sideNav_shadow {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 0px 0px 5px;
+}
+.sideNav .sideNav_box2 {
+  width: 80px;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.sideNavTxt .bgImg {
+  width: 25px;
+  height: 25px;
+  background: url(../../assets/qrCodeicon.png) no-repeat center center;
+  background-size: 25px 25px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.sideNavTxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.sideNav_box2:hover .QR {
+  display: block;
+}
+.sideNav_box2:hover .sideNavTxt .bgImg {
+  background: url(../../assets/qrCodeiconBlue.png) no-repeat center center;
+  background-size: 25px 25px;
+}
+.sideNav_box2:hover .sideNavTxt p {
+  color: #3244a8;
+}
+
+.QR {
+  width: 190px;
+  height: 235px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  position: absolute;
+  right: 97px;
+  bottom: -73px;
+  display: none;
+}
+.sideNav_box2 .QR p {
+  font-size: 18px;
+  margin-top: -5px;
+}
+.sideNav_box2 .QR img {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.sideNav .sideNav_box2::after {
+  content: "";
+  /* margin-top: 20px; */
+  /* padding-bottom: 0px; */
+  margin-top: 20px;
+  border-top: 2px solid #dddddd;
+  width: 45px;
+  /* height: 0px; */
+  display: inline-block;
+  vertical-align: middle;
+}
+.sideNav .sideNav_box3 {
+  width: 80px;
+  height: 63px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  cursor: pointer;
+}
+
+.sideNav_box3 img {
+  width: 25px;
+  height: 23px;
+}
+.sideNav_box2 img {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.sideNav_box2 p {
+  font-size: 14px;
+}
+
+/* 侧边导航---结束 */
+</style>
