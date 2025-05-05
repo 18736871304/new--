@@ -18,7 +18,7 @@
               </el-input>
               <div class="hotSearch">
                 <img src="../../assets/hot.png" alt="">&nbsp;&nbsp;&nbsp;
-                <div class="hotitem">热门搜索：<span @click="searcHot('达尔文10号')">达尔文10号</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('超级玛丽12号')">超级玛丽12号</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('人保寿险i无忧')">人保寿险i无忧</span></div>
+                <div class="hotitem">热门搜索：<span @click="searcHot('超级玛丽')">超级玛丽</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('完美人生')">完美人生</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('妈咪宝贝')">妈咪宝贝</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('I无忧')">I无忧</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('大黄蜂')">大黄蜂</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('达尔文')">达尔文</span>&nbsp;&nbsp;&nbsp;&nbsp;<span @click="searcHot('青云卫')">青云卫</span></div>
               </div>
             </div>
           </div>

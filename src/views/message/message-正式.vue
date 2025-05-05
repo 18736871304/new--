@@ -114,15 +114,15 @@
               <p class="biaoti"> 一、适用范围</p>
               <p> （一）本隐私政策适用于您通过美华旗下网站、移动应用程序（APP）、微信公众号、小程序（以上合称“美华平台”）以及通过第三方网络平台申请美华服务，如了解保险产品及购买、保单查询与个人权益查看等。
               </p>
-
+          
               <p> （二）您也可能通过其他网站链接访问美华平台，我们建议您查看该等网站隐私政策，了解他们如何处理您的个人信息，该等网站对您的个人信息的收集、使用、存储、共享、转让、公开披露等行为独立承担责任。
               </p>
-
+             
               <p class="biaoti"> 二、我们如何收集和使用您的个人信息</p>
               <p> (一）收集您个人信息的方式</p>
               <p> 1.您主动提供的信息：您在服务页面中主动填写的信息、申请服务时、参与网络社区讨论时、投诉与咨询，就美华的服务与我们联系时所提供的信息，以及您在使用我们服务过程中产生的您的交易和活动信息。
               </p>
-
+           
               <p> 2.我们主动采集的信息：在您使用美华平台及相关服务过程中，我们会收集您的计算机、手机及其他访问设备发送给我们的信息。</p>
               <p> 3.我们从其他来源获得的信息：在取得您同意的前提下，我们还可能从美华合作伙伴等经您授权而合法留存您的相关信息的第三方机构获取您的相关信息。</p>
               <p> （二）我们如何收集、使用您的个人信息</p>
@@ -131,7 +131,7 @@
               <p>
                 为成为美华平台的注册用户，您需要提供手机号码进行账户注册并创建密码；您可授权第三方（包括微信、QQ、支付宝）注册的账户登录美华平台，我们会获取您的昵称、头像。如果您仅需使用浏览、搜索等基本服务，您不需要成为美华的注册用户。
               </p>
-
+       
               <p> 2、向您提供保险服务需要</p>
               <p> 2.1
                 按照法律法规和行业规章等要求，当您通过美华申请投保、保全、理赔等保险业务时，我们会收集您的：姓名、性别、国籍、职业、住所地或者工作单位地址、联系方式、身份证件或者身份证明文件的种类、号码和有效期限等信息。
@@ -380,7 +380,7 @@
                   </tr>
 
                   <tr>
-                    <td rowspan="6"><strong>太平洋健康保险股份有限公司</strong></td>
+                    <td rowspan="5"><strong>太平洋健康保险股份有限公司</strong></td>
                     <td>太平洋健康蓝医保长期医疗险（20年期费率可调）</td>
                     <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/338760.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/338760.shtml</a>
                     </td>
@@ -390,12 +390,12 @@
                     <td>
                       <div>太平洋健康险[2021]医疗保险040号/报备文号太保健〔2021〕150号</div>
                     </td>
-                    <td rowspan="6">
+                    <td rowspan="5">
                       <div>
                         http://health.cpic.com.cn/jkx/gkxxpl/cfnlxxzq/?subMenu=4&inSub=3
                       </div>
                     </td>
-                    <td rowspan="6">
+                    <td rowspan="5">
                       <div>10108686</div>
                     </td>
                   </tr>
@@ -461,37 +461,6 @@
                         太保健[2024]181号</div>
                     </td>
                   </tr>
-
-                  <tr>
-                    <td>心医保·长期医疗险（长生版）</td>
-                    <td><a href="https://saas.sdbao.com/platform-cps/aiProduct/detail/tbjk_xyb_cqylx_zsb?sellChannel=7&productVersion=RoacuRMr&merchantCode=d8318a68d68b4ab6a3c0057bd4421e89&seller=63wnc43p1r0a&channel=sdbbtt_untransfer&subChannel=BA_meihuabaoxian_111537_0_99_9_63wnc43p1r0a_NA_NA_V2_dfaebfc869&barleyPayFrequency=null&newLink=true">https://saas.sdbao.com/platform-cps/aiProduct/detail/tbjk_xyb_cqylx_zsb?sellChannel=7&productVersion=RoacuRMr&merchantCode=d8318a68d68b4ab6a3c0057bd4421e89&seller=63wnc43p1r0a&channel=sdbbtt_untransfer&subChannel=BA_meihuabaoxian_111537_0_99_9_63wnc43p1r0a_NA_NA_V2_dfaebfc869&barleyPayFrequency=null&newLink=true</a>
-                    </td>
-                    <td>
-                      <div>
-                        太保互联网长期癌症B款医疗保险(费率可调)；
-                        太保附加互联网长期医疗保险(费率可调)条款；
-                        太保附加互联网个人重大疾病保险条款；
-                        太保附加互联网特需医疗保险条款；
-                        太保附加互联网重大疾病特需医疗保险条款；
-                        太保附加互联网住院费用补偿医疗保险条款；
-                        太保互联网个人门急诊C款医疗保险条款；
-                        太保个人重大疾病保险(互联网)条款；
-                        太保附加互联网恶性肿瘤住院津贴医疗保险条款
-                      </div>
-                    </td>
-                    <td>
-                      <div>太平洋健康险[2024]医疗保险158号；
-                        太平洋健康险[2024]医疗保险037号；
-                        太平洋健康险[2024]疾病保险038号；
-                        太平洋健康险[2024]医疗保险044号；
-                        太平洋健康险[2024]医疗保险045号；
-                        太平洋健康险[2024]医疗保险059号；
-                        太平洋健康险[2024]医疗保险047号；
-                        太平洋健康险[2022]疾病保险009号；
-                        太平洋健康险[2025]医疗保险001号</div>
-                    </td>
-                  </tr>
-
                   <!-- <tr>
                   <td>太平洋保险蓝鲸1号终身重疾险</td>
                   <td><a href="https://iyb.tm/qG5triuig">https://iyb.tm/qG5triuig</a>
@@ -642,7 +611,7 @@
 
                   <tr>
                     <td>平安大护甲6号意外险（全球版）</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_68708877-agent_0&chn=cps_159517856&id=175548&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_68708877-agent_0&chn=cps_159517856&id=175548&vscene=1</a>
+                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_127964994-agent_0&chn=cps_159517856&id=175548&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_127964994-agent_0&chn=cps_159517856&id=175548&vscene=1</a>
                     </td>
                     <td>
                       <div>
@@ -701,47 +670,49 @@
                   </tr>
 
                   <tr>
-                    <td rowspan="10"><strong>中国人民财产保险股份有限公司</strong></td>
-                    <td>中国人保大护甲6号意外险（全民版）</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_191548850-agent_0&chn=cps_159517856&id=177795&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_191548850-agent_0&chn=cps_159517856&id=177795&vscene=1</a>
+                    <td rowspan="12"><strong>中国人民财产保险股份有限公司</strong></td>
+                    <td>人保统护卫</td>
+                    <td><a href="https://www.fxyf99.com/product/detail?c=bz0200331954&id=1542759811097223168">hhttps://www.fxyf99.com/product/detail?c=bz0200331954&id=1542759811097223168</a>
                     </td>
                     <td>
                       <div>
-                        意外伤害保险(互联网专属)条款；
-                        附加意外伤害医疗保险A款(互联网专属)条款；
-                        附加扩展承保自费医疗费用保险A款(互联网专属)条款；
-                        附加救护车费用保险A款（互联网专属）；
-                        附加意外伤害骨折和脱臼保险（互联网专属）条款；
-                        交通出行人身意外伤害保险A款（互联网专属）；
-                        交通工具乘客意外伤害保险 2024版(互联网专属)条款；
-                        预防接种医疗意外保险(互联网专属)条款；
-                        附加调整意外健康险保险金额保险(互联网专属)条款
+                        意外伤害保险（互联网专属）条款
+                        附加意外伤害医疗保险A款（互联网专属）
+                        附加扩展承保自费医疗费用保险A款（互联网专属）
+                        附加意外伤害住院津贴保险A款（互联网专属）
+                        附加急性病身故保险（互联网专属）
+                        营运交通工具乘客意外伤害保险（互联网专属）
+                        交通出行人身意外伤害保险A款（互联网专属）
+                        附加法定节假日意外伤害双倍给付保险(互联网专属)条款
+                        附加救护车费用保险A款（互联网专属）条款
+                        附加意外伤害骨折和脱臼保险（互联网专属）条款
                       </div>
                     </td>
                     <td>
                       <div>
-                        C00000232312021122732193；
-                        C00000232522021122029123；
-                        C00000232522021122328183；
-                        C00000232522021122951643；
-                        C00000232322022012384393；
-                        C00000232312021122438183；
-                        C00000232312025031312643；
-                        C000002134012022011302361；
-                        C00000231922021122030243
+                        C00000232312021122732193
+                        C00000232522021122029123
+                        C00000232522021122328183
+                        C00000232522021122434983
+                        C00000231922021122838493
+                        C00000232312021122438193
+                        C00000232312021122438183
+                        C00000231922021123170103
+                        C00000231922021123170103
+                        C00000232322022012384393
                       </div>
                     </td>
-                    <td rowspan="10">
+                    <td rowspan="12">
                       <div>
                         https://www.picc.com/fuwu/
                       </div>
                     </td>
-                    <td rowspan="10">
+                    <td rowspan="12">
                       <div>95518</div>
                     </td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td>中国人保大护甲6号意外险（易投版）</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?id=174493&chn=cps_159517856&vscene=1">https://www.baodan100.com/insurance/detail?id=174493&chn=cps_159517856&vscene=1</a>
                     </td>
@@ -781,7 +752,7 @@
                         C00000232522022012384403；
                         C00000232522021122328183</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
                     <td>中国人保大护甲5号意外险（1-6类职业版）</td>
@@ -1031,7 +1002,7 @@
                     </td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td>中国人保大护甲6号意外险（入门版）</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_160043493-agent_0&chn=cps_159517856&id=175965&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_160043493-agent_0&chn=cps_159517856&id=175965&vscene=1</a>
                     </td>
@@ -1043,7 +1014,7 @@
                     <td>
                       <div>C00000232312021122732193；C00000232522021122029123；C00000232312021122438213；</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
                     <td rowspan="7"> <strong>中国人民人寿保险股份有限公司</strong></td>
@@ -1113,7 +1084,7 @@
                     </td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td>中国人保金医保2号百万医疗险</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_107505614-unknown_0&chn=cps_159517856&id=176460">https://www.baodan100.com/insurance/detail?brid=shortbuy_107505614-unknown_0&chn=cps_159517856&id=176460</a>
                     </td>
@@ -1127,7 +1098,7 @@
                         人保寿险[2024]医疗保险040号；
                         人保寿险[2024]失能收入损失保险041号</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
                     <td>人保寿险i无忧3.0重大疾病保险</td>
@@ -1154,25 +1125,7 @@
                   </tr>
 
                   <tr>
-                    <td>中国人保金医保3号长期百万医疗险</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_168777453-agent_0&chn=cps_159517856&id=176462&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_168777453-agent_0&chn=cps_159517856&id=176462&vscene=1</a>
-                    </td>
-                    <td>
-                      <div>人保寿险关爱e生2.0长期医疗保险（费率可调）（互联网专属）；
-                        人保寿险附加关爱e生相伴长期医疗保险（费率可调）（互联网专属）；
-                        人保寿险关爱e生失能收入损失保险（互联网专属）；
-                        人保寿险外购药械费用医疗保险（互联网专属）</div>
-                    </td>
-                    <td>
-                      <div>人保寿险[2024]医疗保险039号；
-                        人保寿险[2024]医疗保险040号；
-                        人保寿险[2024]失能收入损失保险041号；
-                        人保寿险[2025]医疗保险013号</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td rowspan="34"><strong>众安在线财产保险股份有限公司</strong></td>
+                    <td rowspan="32"><strong>众安在线财产保险股份有限公司</strong></td>
                     <td>众安尊享e生2024版医疗险</td>
                     <td><a href="https://ihealth.zhongan.com/imc/gt?promotionId=2026860&goodsId=2021125&tenantFrom=za-health&insureConfigId=2018575&healthChannelCode=c20207010645004&healthChannelSource=T202402050107465003">https://ihealth.zhongan.com/imc/gt?promotionId=2026860&goodsId=2021125&tenantFrom=za-health&insureConfigId=2018575&healthChannelCode=c20207010645004&healthChannelSource=T202402050107465003</a>
                     </td>
@@ -1204,12 +1157,12 @@
                         C00017932122022052710993；
                       </div>
                     </td>
-                    <td rowspan="34">
+                    <td rowspan="32">
                       <div>
                         https://www.zhongan.com/
                       </div>
                     </td>
-                    <td rowspan="34">
+                    <td rowspan="32">
                       <div>400-999-9595</div>
                     </td>
                   </tr>
@@ -1817,40 +1770,7 @@
                   </tr>
 
                   <tr>
-                    <td>众安保险全医保百万医疗险（无健告）</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_170863825-agent_0&chn=cps_159517856&id=177554&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_170863825-agent_0&chn=cps_159517856&id=177554&vscene=1</a>
-                    </td>
-                    <td>
-                      <div>附加保险事故限制特约保险（互联网2022版）；
-附加个人住院医疗费用补偿保险（互联网2025版A款）；
-附加外购药品及外购医疗器械费用医疗保险（互联网2025版A款）；
-附加重大疾病异地转诊公共交通费用及住宿费用补偿保险（互联网2023版A款）；
-个人住院医疗保险（互联网普惠2024版E款）</div>
-                    </td>
-                    <td>
-                      <div>C00017931922022062915531,(众安在线)(备-其他)【2023】(附)093号；
-C00017932522025022509723；
-C00017932522025022509803；
-C00017931922023010511293,(众安在线)(备-其他)【2024】(附)052号；
-C00017932512024062100693</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>众安众民保·复发险</td>
-                    <td><a href="https://iyb.tm/WFoyX6yUU">https://iyb.tm/WFoyX6yUU</a>
-                    </td>
-                    <td>
-                      <div>个人特定恶性肿瘤转移复发疾病保险（互联网2025版）</div>
-                    </td>
-                    <td>
-                      <div>C00017932612025022008863</div>
-                    </td>
-                  </tr>
-
-
-                  <tr>
-                    <td rowspan="3"><strong>众惠财产相互保险社</strong></td>
+                    <td rowspan="2"><strong>众惠财产相互保险社</strong></td>
                     <td>众惠普惠版·全民医疗险</td>
                     <td><a href="https://www.fxyf99.com/bsite/products/bz0200331954/1476797803829977088">https://www.fxyf99.com/bsite/products/bz0200331954/1476797803829977088</a>
                     </td>
@@ -1860,12 +1780,12 @@ C00017932512024062100693</div>
                     <td>
                       <div>C00022132512021122225733</div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="2">
                       <div>
                         https://www.pubmi.org/
                       </div>
                     </td>
-                    <td rowspan="3">
+                    <td rowspan="2">
                       <div>400-919-0505</div>
                     </td>
                   </tr>
@@ -1882,36 +1802,7 @@ C00017932512024062100693</div>
                       <div>C00022132512021042245072；C00022132522021070901132</div>
                     </td>
                   </tr>
-              
-                  <tr>
-                    <td>众惠小美满1号成人意外险</td>
-                    <td><a href="https://iyb.tm/U29qbFvlU">https://iyb.tm/U29qbFvlU</a>
-                    </td>
-                    <td>
-                      <div>众惠财产相互保险社意外伤害保险C款（互联网专属）；
-众惠财产相互保险社附加住院津贴保险B款（互联网专属）；
-众惠财产相互保险社附加猝死保险B款；
-众惠财产相互保险社附加预防接种医疗意外保险A款（互联网专属）；
-众惠财产相互保险社附加意外伤害医疗保险B款（互联网专属）；
-众惠财产相互保险社附加交通工具意外伤害保险B款（互联网专属）；
-众惠财产相互保险社附加保险事故限制特约保险；
-众惠财产相互保险社附加调整意外健康险保险金额及给付标准保险；
-众惠财产相互保险社附加救护车车费保险B款（互联网专属）；
-众惠财产相互保险社附加自行车驾驶人员人身意外伤害保险（互联网专属）</div>
-                    </td>
-                    <td>
-                      <div>C00022132312023101768931；
-C00022132522023070502321；
-C00022131922023070502141；
-C000221134022023082637691；
-C00022132522023070502261；
-C00022132322023080222741；
-C00022131922021122224573；
-C00022131922022071132893；
-C00022132522023070502161；
-C00022132322024120304703</div>
-                    </td>
-                  </tr>
+
                   <!-- <tr>
                     <td><strong>天安财产保险股份有限公司</strong></td>
                     <td>天安成人住院万元护2018</td>
@@ -1977,7 +1868,7 @@ C00022132322024120304703</div>
                   </tr> -->
 
                   <tr>
-                    <td rowspan="2"><strong>德华安顾人寿保险有限公司</strong></td>
+                    <td rowspan="1"><strong>德华安顾人寿保险有限公司</strong></td>
                     <td>德华安顾孝亲宝中老年防癌疾病保险</td>
                     <td><a href="https://www.fxyf99.com/bsite/products/bz0200331954/1476483721721221120">https://www.fxyf99.com/bsite/products/bz0200331954/1476483721721221120</a>
                     </td>
@@ -1987,28 +1878,15 @@ C00022132322024120304703</div>
                     <td>
                       <div>德华安顾人寿〔2022〕疾病保险001号</div>
                     </td>
-                    <td rowspan="2">
+                    <td rowspan="1">
                       <div>
                         https://www.ergo-life.cn/serve/bdxz.html
                       </div>
                     </td>
-                    <td rowspan="2">
+                    <td rowspan="1">
                       <div>400-888-0011</div>
                     </td>
                   </tr>
-
-                  <tr>
-                    <td>德华安顾心医保·免健告医疗险（保证续保）</td>
-                    <td><a href="https://saas.sdbao.com/platform-cps/aiProduct/detail/dhag_qybmjgylx_bzxb?sellChannel=7&productVersion=BXTyW5Cv&merchantCode=d8318a68d68b4ab6a3c0057bd4421e89&seller=63wnc43p1r0a&channel=sdbbtt_untransfer&subChannel=BA_meihuabaoxian_113567_0_99_9_63wnc43p1r0a_NA_NA_V2_3361236fe5&barleyPayFrequency=null&newLink=true">https://saas.sdbao.com/platform-cps/aiProduct/detail/dhag_qybmjgylx_bzxb?sellChannel=7&productVersion=BXTyW5Cv&merchantCode=d8318a68d68b4ab6a3c0057bd4421e89&seller=63wnc43p1r0a&channel=sdbbtt_untransfer&subChannel=BA_meihuabaoxian_113567_0_99_9_63wnc43p1r0a_NA_NA_V2_3361236fe5&barleyPayFrequency=null&newLink=true</a>
-                    </td>
-                    <td>
-                      <div>德华安顾全医保医疗保险(互联网)</div>
-                    </td>
-                    <td>
-                      <div>德华安顾人寿[2025]医疗保险001号</div>
-                    </td>
-                  </tr>
-
                   <tr>
                     <td rowspan="2"><strong>招商局仁和人寿保险股份有限公司</strong></td>
 
@@ -2117,7 +1995,7 @@ C00022132322024120304703</div>
                   </tr>
 
                   <tr>
-                    <td rowspan="8"><strong>平安健康保险股份有限公司</strong></td>
+                    <td rowspan="7"><strong>平安健康保险股份有限公司</strong></td>
 
                     <td>平安e惠保·百万医疗险(易核版)</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?brid=shortbuy_55165691-agent_0&chn=cps_159517856&id=175616&vscene=1">https://www.baodan100.com/insurance/detail?brid=shortbuy_55165691-agent_0&chn=cps_159517856&id=175616&vscene=1</a>
@@ -2131,12 +2009,12 @@ C00022132322024120304703</div>
                       <div>平安健康[2023]医疗保险032号</div>
                     </td>
 
-                    <td rowspan="8">
+                    <td rowspan="7">
                       <div>
                         https://health.pingan.com/gongkaixinxipilu/changfunenglixinxi/index.shtml
                       </div>
                     </td>
-                    <td rowspan="8">
+                    <td rowspan="7">
                       <div>95511</div>
                     </td>
                   </tr>
@@ -2239,21 +2117,6 @@ C00022132322024120304703</div>
                     </td>
                   </tr>
 
-
-                  <tr>
-                    <td>平安e生保互联网2025医疗保险</td>
-                    <td><a href="https://m.baodan100.com/insurance/detail?id=177751&chn=cps_159517856">https://m.baodan100.com/insurance/detail?id=177751&chn=cps_159517856</a>
-                    </td>
-                    <td>
-                      <div>平安e生保互联网住院6.0医疗保险T款</div>
-                    </td>
-                    <td>
-                      <div>平安健康[2024]医疗保险051号</div>
-                    </td>
-                  </tr>
-
-
-
                   <tr>
                     <td rowspan="3"><strong>泰康在线财产保险股份有限公司</strong></td>
                     <td>泰康在线防癌医疗险</td>
@@ -2323,7 +2186,7 @@ C00022132322024120304703</div>
                   </tr>
 
                   <tr>
-                    <td rowspan="7"><strong>中国太平洋财产保险股份有限公司</strong></td>
+                    <td rowspan="6"><strong>中国太平洋财产保险股份有限公司</strong></td>
                     <td>太平洋保险大护甲5号意外险（夫妻版）</td>
                     <td><a href="https://www.baodan100.com/insurance/detail?id=174508&chn=cps_159517856&vscene=1">https://www.baodan100.com/insurance/detail?id=174508&chn=cps_159517856&vscene=1</a>
                     </td>
@@ -2339,12 +2202,12 @@ C00022132322024120304703</div>
                         C00001432322021120910923,(太保财险)(备-普通意外保险)【2021】(附) 242号
                         C00001432522021121011953(太保财险)(备-医疗保险)【2021】(附) 243号</div>
                     </td>
-                    <td rowspan="7">
+                    <td rowspan="6">
                       <div>
                         http://www.cpic.com.cn
                       </div>
                     </td>
-                    <td rowspan="7">
+                    <td rowspan="6">
                       <div>95500</div>
                     </td>
                   </tr>
@@ -2511,18 +2374,6 @@ C00022132322024120304703</div>
                         C00001431922022042140831；
                         H00001430922017052422811；
                         H00001432112017052425581</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>太平洋宠物犬主责任险</td>
-                    <td><a href="https://www.fxyf99.com/product/detail?c=bz0200331954&id=1323534035156807680">https://www.fxyf99.com/product/detail?c=bz0200331954&id=1323534035156807680</a>
-                    </td>
-                    <td>
-                      <div>宠物犬主责任险条款</div>
-                    </td>
-                    <td>
-                      <div>太保（备案）[2009]N424号</div>
                     </td>
                   </tr>
 
@@ -3308,7 +3159,7 @@ C00022132322024120304703</div>
                     </td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td rowspan="1"><strong>海峡金桥财产保险股份有限公司</strong></td>
                     <td>全民保医疗险</td>
                     <td><a href="https://iyb.tm/G77FwMBVc">https://iyb.tm/G77FwMBVc</a>
@@ -3327,7 +3178,7 @@ C00022132322024120304703</div>
                     <td rowspan="1">
                       <div>0591-96331</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
                     <td rowspan="1"><strong>中国人民健康保险股份有限公司</strong></td>
@@ -3433,7 +3284,7 @@ C00022132322024120304703</div>
                     </td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td rowspan="2"><strong>中英人寿保险有限公司</strong></td>
                     <td>中英人寿福临门两全保险A款（互联网）</td>
                     <td><a href="https://www.inswin.cn/r101524/renshou-baoxian/355724.shtml">https://www.inswin.cn/r101524/renshou-baoxian/355724.shtml</a>
@@ -3464,7 +3315,7 @@ C00022132322024120304703</div>
                     <td>
                       <div>中英人寿[2024]终身寿险083号</div>
                     </td>
-                  </tr> -->
+                  </tr>
 
                   <tr>
                     <td rowspan="1"><strong>中国人寿财产保险股份有限公司</strong></td>
@@ -3511,24 +3362,26 @@ C00022132322024120304703</div>
                   </tr>
 
                   <tr>
-                    <td rowspan="4"><strong>复星联合健康保险股份有限公司</strong></td>
+                    <td rowspan="2"><strong>复星联合健康保险股份有限公司</strong></td>
                     <td>复星联合妈咪保贝爱常在少儿重大疾病保险</td>
                     <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/356604.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/356604.shtml</a>
                     </td>
                     <td>
-                      <div>复星联合完美人生重大疾病保险（互联网）；
-                        复星联合附加投保人豁免保险费重大疾病保险（A款）</div>
+                      <div>复星联合妈咪保贝爱常在少儿重大疾病保险（A款）（互联网）条款；
+                        复星联合附加妈咪保贝爱常在关爱金重大疾病保险（A款）（互联网）条款；
+                        复星联合附加投保人豁免保险费重大疾病保险（A款）（互联网）条款</div>
                     </td>
                     <td>
-                      <div>复星联合健康保险[2025]疾病保险012号；
-                        星联合健康保险[2024]疾病保险040号</div>
+                      <div>复星联合健康保险[2024]疾病保险038号；
+                        复星联合健康保险[2024]疾病保险039号；
+                        复星联合健康保险[2024]疾病保险040号</div>
                     </td>
-                    <td rowspan="4">
+                    <td rowspan="2">
                       <div>
                         https://www.fosun-uhi.com/
                       </div>
                     </td>
-                    <td rowspan="4">
+                    <td rowspan="2">
                       <div>400-611-7777</div>
                     </td>
                   </tr>
@@ -3546,35 +3399,8 @@ C00022132322024120304703</div>
                     </td>
                   </tr>
 
-
                   <tr>
-                    <td>复星联合超级玛丽真多次重大疾病保险</td>
-                    <td><a href="https://www.baodan100.com/insurance/detail?brid=longbuy_172364648-agent_0&chn=cps_159517856&id=177616&vscene=1">https://www.baodan100.com/insurance/detail?brid=longbuy_172364648-agent_0&chn=cps_159517856&id=177616&vscene=1</a>
-                    </td>
-                    <td>
-                      <div>复星联合优选J重大疾病保险（互联网）</div>
-                    </td>
-                    <td>
-                      <div>复星联合健康保险[2025]医疗保险004号</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>复星联合福星高照特定疾病保险（安泰版）</td>
-                    <td><a href="https://www.inswin.cn/r101524/jiankang-baoxian/357006.shtml">https://www.inswin.cn/r101524/jiankang-baoxian/357006.shtml</a>
-                    </td>
-                    <td>
-                      <div>复星联合福星高照特定疾病保险（安泰版）</div>
-                    </td>
-                    <td>
-                      <div>复星联合健康保险[2025]疾病保险005号</div>
-                    </td>
-                  </tr>
-
-
-
-                  <tr>
-                    <td rowspan="2"><strong>和泰人寿保险股份有限公司</strong></td>
+                    <td rowspan="1"><strong>和泰人寿保险股份有限公司</strong></td>
                     <td>和泰太阳神重大疾病保险</td>
                     <td><a href="https://dwz.cn/sUhDmv9L">https://dwz.cn/sUhDmv9L</a>
                     </td>
@@ -3584,29 +3410,15 @@ C00022132322024120304703</div>
                     <td>
                       <div>和泰人寿[2025]疾病保险003号</div>
                     </td>
-                    <td rowspan="2">
+                    <td rowspan="1">
                       <div>
                         https://www.htlic.com/
                       </div>
                     </td>
-                    <td rowspan="2">
+                    <td rowspan="1">
                       <div>400-666-5858</div>
                     </td>
                   </tr>
-                  <tr>
-                    <td>和泰小太阳1号高保额少儿防癌险</td>
-                    <td><a href="https://dwz.cn/sefjCRPF">https://dwz.cn/sefjCRPF</a>
-                    </td>
-                    <td>
-                      <div>和泰小保贝恶性肿瘤重度疾病保险（互联网）</div>
-                    </td>
-                    <td>
-                      <div>和泰人寿[2025]疾病保险008号</div>
-                    </td>
-                  </tr>
-
-
-
 
                   <tr>
                     <td rowspan="1"><strong>阳光人寿保险股份有限公司</strong></td>
@@ -4260,20 +4072,6 @@ C00022132322024120304703</div>
                       保险推广业务合作
                     </td>
                   </tr>
-
-                  <tr>
-                    <td>诚炜保险代理有限公司</td>
-                    <td>
-                      <a href="https://www.zjcaboo.com/home">https://www.zjcaboo.com/home</a>
-                    </td>
-                    <td>
-                      2022-12-18--2025-12-31
-                    </td>
-                    <td>
-                      保险推广业务合作
-                    </td>
-                  </tr>
-
                 </tbody>
               </table>
             </div>
