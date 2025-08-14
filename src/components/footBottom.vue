@@ -9,7 +9,7 @@
           </div>
           <div class="foot_title">
             <router-link to="/message">信息披露</router-link>
-            <p>邮箱：customer_service@29.com</p>
+            <p>邮箱：customer_service@un29.com</p>
           </div>
           <div style="margin-top: 72px;">
             <div class="footer-copyright">

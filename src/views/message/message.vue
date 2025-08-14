@@ -283,7 +283,7 @@
                   <tr>
                     <td>瑞华健康保险股份有限公司</td>
                     <td>
-                      2024-08-15--2025-08-14
+                      2025-08-15-2026-08-14
                     </td>
                     <td>
                       健康险
@@ -389,7 +389,7 @@
                     </td>
                   </tr> -->
 
-                  <tr>
+                  <!-- <tr>
                     <td>中国太平洋财产保险股份有限公司</td>
                     <td>
                       2021-08-20--2025-08-19
@@ -409,7 +409,7 @@
                     <td>
                       <a href="http://www.cpic.com.cn/xccbx/gkxxbl/cfnlxxzq/?subMenu=4&inSub=3">http://www.cpic.com.cn/xccbx/gkxxbl/cfnlxxzq/?subMenu=4&inSub=3</a>
                     </td>
-                  </tr>
+                  </tr> -->
 
                   <tr>
                     <td>泰康在线财产保险股份有限公司</td>
