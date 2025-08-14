@@ -45,10 +45,10 @@ module.exports = {
           from: './src/articleImg',
           to: "./articleImg"
         },
-        // {
-        //   from: './mobile',
-        //   to: "./mobile"
-        // }
+        {
+          from: './src/dataDictionary',
+          to: "./dataDictionary"
+        }
       
       ]
       })

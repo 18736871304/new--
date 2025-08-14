@@ -89,7 +89,7 @@ export default {
     },
     // 点击发送验证码
     send() {
-
+var _this=this
       if (this.checkTel(this.mobile)) {
         var sendobj = {
           mobilenumber: this.mobile
@@ -100,7 +100,16 @@ export default {
           type: "get",
           async: true,
           beforeSend: function () { },
-          success: function (data) { },
+          success: function (data) {
+            console.log(data)
+            var data = JSON.parse(data)
+            if (data.code == "1") {
+              _this.$message({
+                message:data.msg,
+                type: 'error'
+              });
+            }
+          },
           error: function (data) { },
           complete: function () { }
         });
@@ -126,9 +135,9 @@ export default {
     // 提交表单
     fromSubmit() {
       var _this = this
-     
-    
-    
+
+
+
       if (this.checkTel(this.mobile) && !this.checkEmpty(this.checkno)) {
 
         var params = {
@@ -151,12 +160,12 @@ export default {
           success: function (data) {
             var data = JSON.parse(data)
             if (data.code == "00" || data.code == "02") {
-              _this.$bus.$emit('brotherEvent',"close")
+              _this.$bus.$emit('brotherEvent', "close")
 
               // _this.$bus.$emit('brotherEvent',"close")
-           
+
             } else {
-              
+
             }
           },
           error: function (data) {
